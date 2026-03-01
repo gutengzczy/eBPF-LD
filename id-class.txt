@@ -1,0 +1,6 @@
+0 normal
+1 ftp_bruteforce
+2 reverse_shell
+3 docker_escalation
+4 ssh_bruteforce
+5 lxd_privilege_escalation

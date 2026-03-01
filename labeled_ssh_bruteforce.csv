@@ -1,0 +1,349 @@
+TIME,UID,COMM,PID,TID,RET,EVENT,ARGS,CLASS
+05:06:29:802343,0,lxd,1841,2447,0,security_socket_connect,"sockfd: 27, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+05:06:29:803386,0,lxd,1841,2446,0,security_socket_connect,"sockfd: 27, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+05:06:29:809022,0,lxd,1841,2450,0,fchown,"fd: 27, owner: 0, group: 0",0
+05:06:29:809968,0,lxd,1841,2450,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2233210, dev: 8388611, ctime: 1734516389808624733",0
+05:06:33:821241,0,sshd,154564,154564,154564,setsid,,4
+05:06:33:821842,0,sshd,154564,154564,0,sched_process_exec,"cmdpath: /usr/sbin/sshd, pathname: /usr/sbin/sshd, dev: 8388611, inode: 1444728, ctime: 1732440000808461670, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/sbin/sshd -D -R], interp: /usr/sbin/sshd, stdin_type: S_IFSOCK, stdin_path: TCP, invoked_from_kernel: 0, prev_comm: sshd, env: <nil>",4
+05:06:33:827041,0,sshd,154564,154564,0,security_socket_connect,"sockfd: 6, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:33:827112,0,sshd,154564,154564,0,security_socket_connect,"sockfd: 4, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr::: sin6_flowinfo:0 sin6_port:22 sin6_scopeid:0]",4
+05:06:33:827138,0,sshd,154564,154564,0,security_socket_connect,"sockfd: 4, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:0.0.0.0 sin_port:22]",4
+05:06:33:827228,0,sshd,154564,154564,0,security_socket_connect,"sockfd: 4, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:33:827269,0,sshd,154564,154564,0,security_socket_connect,"sockfd: 4, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:33:832400,0,sshd,154565,154565,0,setresgid,"rgid: 65534, egid: 65534, sgid: 65534",4
+05:06:33:832459,130,sshd,154565,154565,0,setresuid,"ruid: 130, euid: 130, suid: 130",4
+05:06:33:832507,130,sshd,154565,154565,-1,setgid,gid: 0,4
+05:06:33:832518,130,sshd,154565,154565,-1,setresgid,"rgid: -1, egid: 0, sgid: -1",4
+05:06:33:832532,130,sshd,154565,154565,-1,setuid,uid: 0,4
+05:06:33:832554,130,sshd,154565,154565,-1,setresuid,"ruid: -1, euid: 0, suid: -1",4
+05:06:33:934650,0,sshd,154564,154564,0,security_socket_connect,"sockfd: 5, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/dev/log]",4
+05:06:33:934849,0,sshd,154564,154564,0,security_socket_connect,"sockfd: 5, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/dev/log]",4
+05:06:34:159129,0,sshd,154566,154566,154566,setsid,,4
+05:06:34:161052,0,sshd,154566,154566,0,sched_process_exec,"cmdpath: /usr/sbin/sshd, pathname: /usr/sbin/sshd, dev: 8388611, inode: 1444728, ctime: 1732440000808461670, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/sbin/sshd -D -R], interp: /usr/sbin/sshd, stdin_type: S_IFSOCK, stdin_path: TCP, invoked_from_kernel: 0, prev_comm: sshd, env: <nil>",4
+05:06:34:160632,0,sshd,154567,154567,154567,setsid,,4
+05:06:34:162558,0,sshd,154567,154567,0,sched_process_exec,"cmdpath: /usr/sbin/sshd, pathname: /usr/sbin/sshd, dev: 8388611, inode: 1444728, ctime: 1732440000808461670, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/sbin/sshd -D -R], interp: /usr/sbin/sshd, stdin_type: S_IFSOCK, stdin_path: TCP, invoked_from_kernel: 0, prev_comm: sshd, env: <nil>",4
+05:06:34:173091,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 6, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:34:173090,0,sshd,154567,154567,0,security_socket_connect,"sockfd: 6, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:34:173206,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 4, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr::: sin6_flowinfo:0 sin6_port:22 sin6_scopeid:0]",4
+05:06:34:173236,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 4, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:0.0.0.0 sin_port:22]",4
+05:06:34:173356,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 4, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:34:173381,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 4, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:34:173206,0,sshd,154567,154567,0,security_socket_connect,"sockfd: 4, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr::: sin6_flowinfo:0 sin6_port:22 sin6_scopeid:0]",4
+05:06:34:173236,0,sshd,154567,154567,0,security_socket_connect,"sockfd: 4, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:0.0.0.0 sin_port:22]",4
+05:06:34:173354,0,sshd,154567,154567,0,security_socket_connect,"sockfd: 4, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:34:173376,0,sshd,154567,154567,0,security_socket_connect,"sockfd: 4, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:34:178055,0,sshd,154568,154568,0,setresgid,"rgid: 65534, egid: 65534, sgid: 65534",4
+05:06:34:178241,130,sshd,154568,154568,0,setresuid,"ruid: 130, euid: 130, suid: 130",4
+05:06:34:178304,130,sshd,154568,154568,-1,setgid,gid: 0,4
+05:06:34:178326,130,sshd,154568,154568,-1,setresgid,"rgid: -1, egid: 0, sgid: -1",4
+05:06:34:178341,130,sshd,154568,154568,-1,setuid,uid: 0,4
+05:06:34:178354,130,sshd,154568,154568,-1,setresuid,"ruid: -1, euid: 0, suid: -1",4
+05:06:34:183068,0,sshd,154569,154569,0,setresgid,"rgid: 65534, egid: 65534, sgid: 65534",4
+05:06:34:183130,130,sshd,154569,154569,0,setresuid,"ruid: 130, euid: 130, suid: 130",4
+05:06:34:183145,130,sshd,154569,154569,-1,setgid,gid: 0,4
+05:06:34:183158,130,sshd,154569,154569,-1,setresgid,"rgid: -1, egid: 0, sgid: -1",4
+05:06:34:183168,130,sshd,154569,154569,-1,setuid,uid: 0,4
+05:06:34:183176,130,sshd,154569,154569,-1,setresuid,"ruid: -1, euid: 0, suid: -1",4
+05:06:34:360789,0,sshd,154567,154567,0,security_socket_connect,"sockfd: 5, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/dev/log]",4
+05:06:34:377099,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:34:377170,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",4
+05:06:34:377524,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 8, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",4
+05:06:34:472466,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 5, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/dev/log]",4
+05:06:34:478410,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",4
+05:06:34:479321,0,sshd,154566,154566,0,setregid,"rgid: 1000, egid: -1",4
+05:06:34:479357,1000,sshd,154566,154566,0,setreuid,"ruid: 1000, euid: -1",4
+05:06:34:479384,0,sshd,154566,154566,0,setreuid,"ruid: 0, euid: -1",4
+05:06:34:479426,0,sshd,154566,154566,0,setregid,"rgid: 0, egid: -1",4
+05:06:34:479594,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 3, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/dev/log]",0
+05:06:34:479717,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.Multiplexer]",0
+05:06:34:479787,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 7, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:480265,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/dbus/system_bus_socket]",0
+05:06:34:482170,0,systemd-logind,912,912,0,security_socket_connect,"sockfd: 21, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.Multiplexer]",0
+05:06:34:482242,0,systemd-logind,912,912,0,security_socket_connect,"sockfd: 23, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:484037,0,systemd-logind,912,912,0,fchmod,"fd: 21, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+05:06:34:484191,0,systemd-logind,912,912,0,fchmod,"fd: 21, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+05:06:34:491110,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:493247,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:496252,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:499512,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:500125,0,systemd-logind,912,912,0,fchmod,"fd: 24, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+05:06:34:500349,0,systemd-logind,912,912,0,fchmod,"fd: 23, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+05:06:34:500491,0,systemd-logind,912,912,0,fchmod,"fd: 23, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+05:06:34:501295,0,sh,154570,154570,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c /usr/bin/env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d > /run/motd.dynamic.new], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sshd, env: <nil>",0
+05:06:34:502515,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:504033,0,env,154571,154571,0,sched_process_exec,"cmdpath: /usr/bin/env, pathname: /usr/bin/env, dev: 8388611, inode: 1442077, ctime: 1721354245418207613, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/bin/env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d], interp: /usr/bin/env, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sh, env: <nil>",0
+05:06:34:504531,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:505966,0,run-parts,154571,154571,0,sched_process_exec,"cmdpath: /usr/bin/run-parts, pathname: /usr/bin/run-parts, dev: 8388611, inode: 1442826, ctime: 1721354246330049149, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [run-parts --lsbsysinit /etc/update-motd.d], interp: /usr/bin/run-parts, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: env, env: <nil>",0
+05:06:34:506778,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:506868,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:507401,0,00-header,154572,154572,0,sched_process_exec,"cmdpath: /etc/update-motd.d/00-header, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/00-header], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:508918,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:508933,0,uname,154573,154573,0,sched_process_exec,"cmdpath: /usr/bin/uname, pathname: /usr/bin/uname, dev: 8388611, inode: 1443044, ctime: 1721354246753976525, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [uname -o], interp: /usr/bin/uname, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 00-header, env: <nil>",0
+05:06:34:510216,0,uname,154574,154574,0,sched_process_exec,"cmdpath: /usr/bin/uname, pathname: /usr/bin/uname, dev: 8388611, inode: 1443044, ctime: 1721354246753976525, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [uname -r], interp: /usr/bin/uname, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 00-header, env: <nil>",0
+05:06:34:510235,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:511096,0,uname,154575,154575,0,sched_process_exec,"cmdpath: /usr/bin/uname, pathname: /usr/bin/uname, dev: 8388611, inode: 1443044, ctime: 1721354246753976525, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [uname -m], interp: /usr/bin/uname, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 00-header, env: <nil>",0
+05:06:34:512159,0,10-help-text,154576,154576,0,sched_process_exec,"cmdpath: /etc/update-motd.d/10-help-text, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/10-help-text], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:512175,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:513129,0,50-motd-news,154577,154577,0,sched_process_exec,"cmdpath: /etc/update-motd.d/50-motd-news, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/50-motd-news], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:514341,0,85-fwupd,154578,154578,0,sched_process_exec,"cmdpath: /etc/update-motd.d/85-fwupd, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/85-fwupd], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:515179,0,cat,154579,154579,0,sched_process_exec,"cmdpath: /usr/bin/cat, pathname: /usr/bin/cat, dev: 8388611, inode: 1441941, ctime: 1721354245330223025, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [cat /run/motd.d/85-fwupd], interp: /usr/bin/cat, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 85-fwupd, env: <nil>",0
+05:06:34:516131,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:516378,0,90-updates-avai,154580,154580,0,sched_process_exec,"cmdpath: /etc/update-motd.d/90-updates-available, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/90-updates-available], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:517106,0,cat,154581,154581,0,sched_process_exec,"cmdpath: /usr/bin/cat, pathname: /usr/bin/cat, dev: 8388611, inode: 1441941, ctime: 1721354245330223025, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [cat /var/lib/update-notifier/updates-available], interp: /usr/bin/cat, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 90-updates-avai, env: <nil>",0
+05:06:34:518106,0,find,154582,154582,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /var/lib/update-notifier/updates-available -newermt now-7 days], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 90-updates-avai, env: <nil>",0
+05:06:34:518837,0,grep,154583,154583,0,sched_process_exec,"cmdpath: /usr/bin/grep, pathname: /usr/bin/grep, dev: 8388611, inode: 1442243, ctime: 1721354245730152969, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [grep -q -m 1 .], interp: /usr/bin/grep, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: 90-updates-avai, env: <nil>",0
+05:06:34:519019,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:520262,0,91-contract-ua-,154584,154584,0,sched_process_exec,"cmdpath: /etc/update-motd.d/91-contract-ua-esm-status, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/91-contract-ua-esm-status], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:521206,0,91-release-upgr,154585,154585,0,sched_process_exec,"cmdpath: /etc/update-motd.d/91-release-upgrade, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/91-release-upgrade], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:521956,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:523660,0,cut,154588,154588,0,sched_process_exec,"cmdpath: /usr/bin/cut, pathname: /usr/bin/cut, dev: 8388611, inode: 1441991, ctime: 1721354245358218121, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [cut -d  -f4], interp: /usr/bin/cut, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: 91-release-upgr, env: <nil>",0
+05:06:34:524931,0,id,154589,154589,0,sched_process_exec,"cmdpath: /usr/bin/id, pathname: /usr/bin/id, dev: 8388611, inode: 1442354, ctime: 1721354245934117240, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [id -u], interp: /usr/bin/id, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 91-release-upgr, env: <nil>",0
+05:06:34:526110,0,release-upgrade,154585,154585,0,sched_process_exec,"cmdpath: /usr/lib/ubuntu-release-upgrader/release-upgrade-motd, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh -e /usr/lib/ubuntu-release-upgrader/release-upgrade-motd], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 91-release-upgr, env: <nil>",0
+05:06:34:527043,0,date,154590,154590,0,sched_process_exec,"cmdpath: /usr/bin/date, pathname: /usr/bin/date, dev: 8388611, inode: 1441995, ctime: 1721354245366216720, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [date +%s], interp: /usr/bin/date, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: release-upgrade, env: <nil>",0
+05:06:34:527387,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:528093,0,stat,154591,154591,0,sched_process_exec,"cmdpath: /usr/bin/stat, pathname: /usr/bin/stat, dev: 8388611, inode: 1442937, ctime: 1721354246554010782, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [stat -c %Y /var/lib/ubuntu-release-upgrader/release-upgrade-available], interp: /usr/bin/stat, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: release-upgrade, env: <nil>",0
+05:06:34:528125,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:529278,0,expr,154592,154592,0,sched_process_exec,"cmdpath: /usr/bin/expr, pathname: /usr/bin/expr, dev: 8388611, inode: 1442090, ctime: 1721354245434204811, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [expr 1734515991 + 86400], interp: /usr/bin/expr, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: release-upgrade, env: <nil>",0
+05:06:34:529459,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:530265,0,cat,154593,154593,0,sched_process_exec,"cmdpath: /usr/bin/cat, pathname: /usr/bin/cat, dev: 8388611, inode: 1441941, ctime: 1721354245330223025, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [cat /var/lib/ubuntu-release-upgrader/release-upgrade-available], interp: /usr/bin/cat, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: release-upgrade, env: <nil>",0
+05:06:34:531070,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:531316,0,92-unattended-u,154594,154594,0,sched_process_exec,"cmdpath: /etc/update-motd.d/92-unattended-upgrades, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/92-unattended-upgrades], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:531948,0,update-motd-una,154594,154594,0,sched_process_exec,"cmdpath: /usr/share/unattended-upgrades/update-motd-unattended-upgrades, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /usr/share/unattended-upgrades/update-motd-unattended-upgrades], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 92-unattended-u, env: <nil>",0
+05:06:34:532441,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:532504,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:532938,0,95-hwe-eol,154595,154595,0,sched_process_exec,"cmdpath: /etc/update-motd.d/95-hwe-eol, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/95-hwe-eol], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:533902,0,find,154596,154596,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /var/lib/update-notifier/hwe-eol -newermt now-1 days], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 95-hwe-eol, env: <nil>",0
+05:06:34:534777,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:535438,0,98-fsck-at-rebo,154597,154597,0,sched_process_exec,"cmdpath: /etc/update-motd.d/98-fsck-at-reboot, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/98-fsck-at-reboot], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:536101,0,update-motd-fsc,154597,154597,0,sched_process_exec,"cmdpath: /usr/lib/update-notifier/update-motd-fsck-at-reboot, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /usr/lib/update-notifier/update-motd-fsck-at-reboot], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 98-fsck-at-rebo, env: <nil>",0
+05:06:34:536750,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:537066,0,id,154598,154598,0,sched_process_exec,"cmdpath: /usr/bin/id, pathname: /usr/bin/id, dev: 8388611, inode: 1442354, ctime: 1721354245934117240, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [id -u], interp: /usr/bin/id, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: update-motd-fsc, env: <nil>",0
+05:06:34:538470,0,stat,154599,154599,0,sched_process_exec,"cmdpath: /usr/bin/stat, pathname: /usr/bin/stat, dev: 8388611, inode: 1442937, ctime: 1721354246554010782, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [stat -c %Y /var/lib/update-notifier/fsck-at-reboot], interp: /usr/bin/stat, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: update-motd-fsc, env: <nil>",0
+05:06:34:540237,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:541164,0,awk,154601,154601,0,sched_process_exec,"cmdpath: /usr/bin/awk, pathname: /usr/bin/mawk, dev: 8388611, inode: 1442516, ctime: 1721354246046097792, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [awk {print $1} /proc/uptime], interp: /usr/bin/awk, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: update-motd-fsc, env: <nil>",0
+05:06:34:542934,0,date,154600,154600,0,sched_process_exec,"cmdpath: /usr/bin/date, pathname: /usr/bin/date, dev: 8388611, inode: 1441995, ctime: 1721354245366216720, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [date -d now - 250248.03 seconds +%s], interp: /usr/bin/date, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: update-motd-fsc, env: <nil>",0
+05:06:34:543082,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:544262,0,date,154602,154602,0,sched_process_exec,"cmdpath: /usr/bin/date, pathname: /usr/bin/date, dev: 8388611, inode: 1441995, ctime: 1721354245366216720, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [date +%s], interp: /usr/bin/date, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: update-motd-fsc, env: <nil>",0
+05:06:34:545697,0,cat,154603,154603,0,sched_process_exec,"cmdpath: /usr/bin/cat, pathname: /usr/bin/cat, dev: 8388611, inode: 1441941, ctime: 1721354245330223025, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [cat /var/lib/update-notifier/fsck-at-reboot], interp: /usr/bin/cat, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: update-motd-fsc, env: <nil>",0
+05:06:34:545708,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:547728,0,98-reboot-requi,154604,154604,0,sched_process_exec,"cmdpath: /etc/update-motd.d/98-reboot-required, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /etc/update-motd.d/98-reboot-required], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: run-parts, env: <nil>",0
+05:06:34:548372,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:549112,0,update-motd-reb,154604,154604,0,sched_process_exec,"cmdpath: /usr/lib/update-notifier/update-motd-reboot-required, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh -e /usr/lib/update-notifier/update-motd-reboot-required], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: 98-reboot-requi, env: <nil>",0
+05:06:34:550423,0,sshd,154566,154566,0,setfsgid,fsgid: 1000,0
+05:06:34:550486,0,sshd,154566,154566,1000,setfsgid,fsgid: 1000,0
+05:06:34:550497,0,sshd,154566,154566,0,setfsuid,fsuid: 1000,0
+05:06:34:550507,0,sshd,154566,154566,1000,setfsuid,fsuid: 1000,0
+05:06:34:550540,0,sshd,154566,154566,1000,setfsuid,fsuid: 0,0
+05:06:34:550568,0,sshd,154566,154566,0,setfsuid,fsuid: 0,0
+05:06:34:550578,0,sshd,154566,154566,1000,setfsgid,fsgid: 0,0
+05:06:34:550586,0,sshd,154566,154566,0,setfsgid,fsgid: 0,0
+05:06:34:550669,0,sshd,154566,154566,0,setfsgid,fsgid: 1000,0
+05:06:34:550705,0,sshd,154566,154566,1000,setfsgid,fsgid: 1000,0
+05:06:34:550716,0,sshd,154566,154566,0,setfsuid,fsuid: 1000,0
+05:06:34:550729,0,sshd,154566,154566,1000,setfsuid,fsuid: 1000,0
+05:06:34:550741,0,sshd,154566,154566,1000,setfsuid,fsuid: 0,0
+05:06:34:550762,0,sshd,154566,154566,0,setfsuid,fsuid: 0,0
+05:06:34:550773,0,sshd,154566,154566,1000,setfsgid,fsgid: 0,0
+05:06:34:550781,0,sshd,154566,154566,0,setfsgid,fsgid: 0,0
+05:06:34:550843,0,sshd,154566,154566,0,setfsgid,fsgid: 1000,0
+05:06:34:550859,0,sshd,154566,154566,1000,setfsgid,fsgid: 1000,0
+05:06:34:550867,0,sshd,154566,154566,0,setfsuid,fsuid: 1000,0
+05:06:34:550875,0,sshd,154566,154566,1000,setfsuid,fsuid: 1000,0
+05:06:34:550887,0,sshd,154566,154566,1000,setfsuid,fsuid: 0,0
+05:06:34:550897,0,sshd,154566,154566,0,setfsuid,fsuid: 0,0
+05:06:34:550957,0,sshd,154566,154566,1000,setfsgid,fsgid: 0,0
+05:06:34:550971,0,sshd,154566,154566,0,setfsgid,fsgid: 0,0
+05:06:34:550977,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:553248,0,sshd,154605,154605,0,setgid,gid: 1000,0
+05:06:34:553458,0,sshd,154605,154605,0,security_socket_connect,"sockfd: 9, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:555102,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:557128,0,sshd,154605,154605,0,security_socket_connect,"sockfd: 9, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:558266,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:560335,0,sshd,154605,154605,0,setresgid,"rgid: 1000, egid: 1000, sgid: 1000",0
+05:06:34:560709,1000,sshd,154605,154605,0,setresuid,"ruid: 1000, euid: 1000, suid: 1000",0
+05:06:34:560949,1000,sshd,154605,154605,-1,setuid,uid: 0,0
+05:06:34:561207,1000,sshd,154605,154605,-1,setresuid,"ruid: -1, euid: 0, suid: -1",0
+05:06:34:562263,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:562426,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:565602,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:566866,0,sshd,154566,154566,0,setregid,"rgid: -1, egid: 1000",0
+05:06:34:566925,0,sshd,154566,154566,0,setresuid,"ruid: -1, euid: 1000, suid: 0",0
+05:06:34:566953,0,sshd,154566,154566,0,setreuid,"ruid: -1, euid: 0",0
+05:06:34:566966,0,sshd,154566,154566,0,setregid,"rgid: -1, egid: 0",0
+05:06:34:567560,0,sshd,154566,154566,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/dbus/system_bus_socket]",0
+05:06:34:568669,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:571986,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:574725,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:576118,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:577789,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:577864,0,systemd-logind,912,912,0,security_inode_unlink,"pathname: /systemd/sessions/268.ref, inode: 2912, dev: 25, ctime: 1734516394498634300",0
+05:06:34:579390,0,systemd-logind,912,912,0,fchmod,"fd: 21, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+05:06:34:579982,0,systemd-logind,912,912,0,fchmod,"fd: 21, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+05:06:34:580166,0,systemd,1,1,0,security_inode_unlink,"pathname: /systemd/units/invocation:session-268.scope, inode: 2911, dev: 25, ctime: 1734516394483634269",0
+05:06:34:580216,0,systemd,1,1,0,security_inode_unlink,"pathname: /systemd/transient/session-268.scope, inode: 2908, dev: 25, ctime: 1734516394481634265",0
+05:06:34:581076,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:581835,0,systemd-logind,912,912,0,security_inode_unlink,"pathname: /systemd/sessions/268, inode: 2917, dev: 25, ctime: 1734516394578634464",0
+05:06:34:581964,0,systemd-logind,912,912,0,fchmod,"fd: 21, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+05:06:34:583315,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:585370,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:587736,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:587839,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:589898,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:591791,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:592355,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:593607,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:595575,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:598122,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:600213,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:601925,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:603875,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:606261,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:607786,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:607935,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:609347,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:610805,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:612456,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:613897,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:615541,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:617046,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:618983,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:620751,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:622463,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:623680,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:623873,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:625179,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:627202,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:628809,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:630188,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:631792,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:633757,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:635112,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:635632,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:636508,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:637805,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:639140,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:639234,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:640549,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:641966,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:643421,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:646106,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:649250,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:652273,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:654030,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:655323,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:657023,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:658434,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:658537,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:659840,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:661986,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:663760,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:666891,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:668495,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:669756,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:671049,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:672717,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:673988,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:675227,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:675691,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:676576,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:677885,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:678902,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:679356,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:680657,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:682021,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:684205,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:686002,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:687804,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:689028,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:690455,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:690916,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:692271,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:693476,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:694825,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:696041,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:697738,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:698975,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:700604,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:701963,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:703355,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:704600,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:705092,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:705908,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:707212,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:708874,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:710534,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:712069,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:713442,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:714650,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:716047,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:716533,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:717838,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:719117,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:719600,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:720549,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:722141,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:723499,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:724838,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:726162,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:727613,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:729316,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:730575,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:731805,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:733120,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:734342,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:734784,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:735665,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:736863,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:738248,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:739917,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:741652,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:743336,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:744555,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:745907,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:747630,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:748960,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:749520,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:750484,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:751696,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:752028,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:753683,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:754939,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:756261,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:757469,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:758975,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:760327,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:761582,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:762937,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:763396,0,polkitd,901,901,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+05:06:34:764809,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:766619,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:769508,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:770868,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:772114,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:773786,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:775047,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:776350,0,polkitd,901,901,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+05:06:34:896143,101,systemd-resolve,686,686,0,security_socket_connect,"sockfd: 11, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+05:06:34:896412,101,systemd-resolve,686,686,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 42028 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+05:06:34:915237,0,swapper/3,0,0,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 42028 17 526 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2001:67c:1562::23} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2001:67c:1562::24}]}]",0
+05:06:34:918081,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918181,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918247,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918323,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918385,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918419,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918452,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918523,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918585,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918620,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918681,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:34:918756,0,NetworkManager,890,890,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+05:06:37:986674,0,sshd,154567,154567,0,security_socket_connect,"sockfd: 5, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/dev/log]",4
+05:06:39:810896,0,lxd,1841,2450,0,security_socket_connect,"sockfd: 27, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+05:06:39:812122,0,lxd,1841,1860,0,security_socket_connect,"sockfd: 27, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+05:06:39:822481,0,lxd,1841,2450,0,fchown,"fd: 27, owner: 0, group: 0",0
+05:06:39:825665,0,lxd,1841,2450,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2233210, dev: 8388611, ctime: 1734516399821645298",0
+05:06:49:811173,0,lxd,1841,2446,0,security_socket_connect,"sockfd: 27, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+05:06:49:812021,0,lxd,1841,47435,0,security_socket_connect,"sockfd: 27, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+05:06:49:822658,0,lxd,1841,2446,0,fchown,"fd: 27, owner: 0, group: 0",0
+05:06:49:824477,0,lxd,1841,2446,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2233210, dev: 8388611, ctime: 1734516409821666359",0

@@ -1,0 +1,966 @@
+TIME,UID,COMM,PID,TID,RET,EVENT,ARGS,CLASS
+04:06:33:782450,1000,gnome-terminal-,4385,4385,15,memfd_create,"name: gdk-wayland, flags: 1",0
+04:06:35:448312,1000,gnome-terminal-,4385,4385,15,memfd_create,"name: gdk-wayland, flags: 1",0
+04:06:38:816253,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:06:38:816643,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:06:38:820052,0,lxd,2645,3642,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:06:38:820969,0,lxd,2645,3642,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2228671, dev: 8388611, ctime: 1741165598818949579",0
+04:06:40:052594,1000,gnome-terminal-,4385,4385,15,memfd_create,"name: gdk-wayland, flags: 1",0
+04:06:48:816724,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:06:48:816994,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:06:48:820190,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:06:48:821359,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2228671, dev: 8388611, ctime: 1741165608819025933",0
+04:06:58:817937,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:06:58:818144,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:06:58:822452,0,lxd,2645,2661,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:06:58:823332,0,lxd,2645,2661,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2228671, dev: 8388611, ctime: 1741165618822102196",0
+04:06:59:218895,1000,gnome-shell,2952,2952,0,fchown,"fd: 125, owner: 1000, group: 1000",0
+04:06:59:218952,1000,gnome-shell,2952,2952,0,fchmod,"fd: 125, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IWGRP|S_IROTH",0
+04:07:04:993948,33,sh,10199,10199,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c tar --version], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:04:997860,33,tar,10200,10200,0,sched_process_exec,"cmdpath: /usr/bin/tar, pathname: /usr/bin/tar, dev: 8388611, inode: 1442983, ctime: 1721354246617999820, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [tar --version], interp: /usr/bin/tar, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:07:05:006540,33,sh,10201,10201,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c gzip --version], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:05:007950,33,gzip,10202,10202,0,sched_process_exec,"cmdpath: /usr/bin/gzip, pathname: /usr/bin/gzip, dev: 8388611, inode: 1442305, ctime: 1721354245918120042, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [gzip --version], interp: /usr/bin/gzip, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:07:05:011166,33,sh,10203,10203,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c bzip2 --version], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:05:012474,33,bzip2,10204,10204,0,sched_process_exec,"cmdpath: /usr/bin/bzip2, pathname: /usr/bin/bzip2, dev: 8388611, inode: 1441930, ctime: 1721354245330223025, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [bzip2 --version], interp: /usr/bin/bzip2, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:07:05:015300,33,sh,10205,10205,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c xz --version], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:05:016996,33,xz,10206,10206,0,sched_process_exec,"cmdpath: /usr/bin/xz, pathname: /usr/bin/xz, dev: 8388611, inode: 1443190, ctime: 1721354246865957342, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [xz --version], interp: /usr/bin/xz, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:07:05:020428,33,sh,10207,10207,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c zip -h], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:05:021899,33,zip,10208,10208,0,sched_process_exec,"cmdpath: /usr/bin/zip, pathname: /usr/bin/zip, dev: 8388611, inode: 1443211, ctime: 1721354246873955972, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [zip -h], interp: /usr/bin/zip, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:07:05:025245,33,sh,10209,10209,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c unzip --help], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:05:026873,33,unzip,10210,10210,0,sched_process_exec,"cmdpath: /usr/bin/unzip, pathname: /usr/bin/unzip, dev: 8388611, inode: 1443060, ctime: 1721354246761975155, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [unzip --help], interp: /usr/bin/unzip, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:07:05:043501,33,sh,10211,10211,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c rar --version], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:05:045971,33,sh,10212,10212,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c unrar], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:05:048329,33,sh,10213,10213,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c 7za], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:05:051511,33,sh,10214,10214,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c ffmpeg -version], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:07:05:062955,33,apache2,8361,8361,0,security_inode_unlink,"pathname: /srv/www/wordpress/wp-content/plugins/wp-file-manager/lib/files/reverse_shell.php, inode: 791017, dev: 8388611, ctime: 1741067815878549610",3
+04:07:05:063459,33,apache2,8361,8361,0,chown,"pathname: /srv/www/wordpress/wp-content/plugins/wp-file-manager/lib/files/reverse_shell.php, owner: 33, group: 33",3
+04:07:05:063498,33,apache2,8361,8361,0,chmod,"pathname: /srv/www/wordpress/wp-content/plugins/wp-file-manager/lib/files/reverse_shell.php, mode: S_IFREG|S_IRUSR|S_IWUSR",3
+04:07:05:063513,33,apache2,8361,8361,0,security_inode_unlink,"pathname: /tmp/systemd-private-feac145c0688475180ebad04f21e69fd-apache2.service-KXlKR6/tmp/php6u6VvG, inode: 917575, dev: 8388611, ctime: 1741165625057149676",3
+04:07:05:063551,33,apache2,8361,8361,0,chmod,"pathname: /srv/www/wordpress/wp-content/plugins/wp-file-manager/lib/files/reverse_shell.php, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",3
+04:07:05:064573,33,apache2,8361,8361,0,security_inode_unlink,"pathname: /srv/www/wordpress/wp-content/plugins/wp-file-manager/lib/php/.tmp/elfreq17457a1fe6959, inode: 791021, dev: 8388611, ctime: 1741165625055149661",3
+04:07:05:065048,33,apache2,8361,8361,0,security_inode_unlink,"pathname: /srv/www/wordpress/wp-content/plugins/wp-file-manager/lib/php/.tmp/l1_Lw.lock, inode: 791097, dev: 8388611, ctime: 1741165625056149668",3
+04:07:08:819397,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:08:820366,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:08:829060,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:07:08:830397,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2241056, dev: 8388611, ctime: 1741165628828178373",0
+04:07:09:624104,101,systemd-resolve,689,689,0,security_socket_connect,"sockfd: 11, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+04:07:09:624344,101,systemd-resolve,689,689,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 46601 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:07:11:631352,0,swapper/3,0,0,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 46601 17 523 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2001:67c:1562::23} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2001:67c:1562::24} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4000:1::23}]}]",0
+04:07:11:634790,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:635143,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:635271,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:635386,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:635473,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:635557,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:635806,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:635922,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:636088,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:636178,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:636376,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:11:636478,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:13:071243,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:127.0.0.53 sin_port:53]",0
+04:07:13:071423,0,NetworkManager,900,10215,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59300 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:07:13:071739,0,NetworkManager,900,10215,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59300 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:07:13:071848,0,NetworkManager,900,10215,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59300 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:07:13:072253,101,systemd-resolve,689,689,0,security_socket_connect,"sockfd: 11, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+04:07:13:072360,101,systemd-resolve,689,689,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 52018 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:07:13:073625,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59300 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 3 2620:2d:4000:1::96} {AAAA 3 2620:2d:4002:1::196} {AAAA 3 2620:2d:4000:1::22} {AAAA 3 2620:2d:4000:1::97} {AAAA 3 2001:67c:1562::23} {AAAA 3 2620:2d:4000:1::98} {AAAA 3 2620:2d:4000:1::23} {AAAA 3 2620:2d:4002:1::198} {AAAA 3 2620:2d:4000:1::2a} {AAAA 3 2620:2d:4000:1::2b} {AAAA 3 2620:2d:4002:1::197} {AAAA 3 2001:67c:1562::24}]}]",0
+04:07:13:073821,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59300 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 3 2620:2d:4000:1::96} {AAAA 3 2620:2d:4002:1::196} {AAAA 3 2620:2d:4000:1::22} {AAAA 3 2620:2d:4000:1::97} {AAAA 3 2001:67c:1562::23} {AAAA 3 2620:2d:4000:1::98} {AAAA 3 2620:2d:4000:1::23} {AAAA 3 2620:2d:4002:1::198} {AAAA 3 2620:2d:4000:1::2a} {AAAA 3 2620:2d:4000:1::2b} {AAAA 3 2620:2d:4002:1::197} {AAAA 3 2001:67c:1562::24}]}]",0
+04:07:15:078110,0,swapper/3,0,0,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 52018 17 435 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 185.125.190.17} {A 5 91.189.91.97} {A 5 185.125.190.49} {A 5 185.125.190.18} {A 5 91.189.91.96} {A 5 185.125.190.97} {A 5 185.125.190.98} {A 5 185.125.190.96} {A 5 91.189.91.49} {A 5 91.189.91.98} {A 5 185.125.190.48} {A 5 91.189.91.48}]}]",0
+04:07:15:079197,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59300 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 185.125.190.17} {A 5 91.189.91.97} {A 5 185.125.190.49} {A 5 185.125.190.18} {A 5 91.189.91.96} {A 5 185.125.190.97} {A 5 185.125.190.98} {A 5 185.125.190.96} {A 5 91.189.91.49} {A 5 91.189.91.98} {A 5 185.125.190.48} {A 5 91.189.91.48}]}]",0
+04:07:15:079242,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59300 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 185.125.190.17} {A 5 91.189.91.97} {A 5 185.125.190.49} {A 5 185.125.190.18} {A 5 91.189.91.96} {A 5 185.125.190.97} {A 5 185.125.190.98} {A 5 185.125.190.96} {A 5 91.189.91.49} {A 5 91.189.91.98} {A 5 185.125.190.48} {A 5 91.189.91.48}]}]",0
+04:07:15:079573,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079754,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079776,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079806,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079824,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079841,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079857,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079875,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079891,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079908,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079925,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079958,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:079971,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.17 sin_port:80]",0
+04:07:15:079992,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.97 sin_port:80]",0
+04:07:15:080006,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.49 sin_port:80]",0
+04:07:15:080019,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.18 sin_port:80]",0
+04:07:15:080032,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.96 sin_port:80]",0
+04:07:15:080045,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.97 sin_port:80]",0
+04:07:15:080058,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.98 sin_port:80]",0
+04:07:15:080071,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.96 sin_port:80]",0
+04:07:15:080084,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.49 sin_port:80]",0
+04:07:15:080097,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.98 sin_port:80]",0
+04:07:15:080110,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.48 sin_port:80]",0
+04:07:15:080123,0,NetworkManager,900,10215,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.48 sin_port:80]",0
+04:07:15:080436,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:080556,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:080603,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:080641,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:080677,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:080792,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:080841,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:080881,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:080952,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:081025,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:081070,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:15:081111,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:18:819607,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:18:819953,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:18:825328,0,lxd,2645,3648,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:07:18:828154,0,lxd,2645,3648,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2241056, dev: 8388611, ctime: 1741165638824254366",0
+04:07:25:485804,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:127.0.0.53 sin_port:53]",0
+04:07:25:486087,0,NetworkManager,900,10222,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 56679 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:07:25:486182,0,NetworkManager,900,10222,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 56679 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:07:25:486305,0,NetworkManager,900,10222,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 56679 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:07:25:486340,0,NetworkManager,900,10222,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 56679 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:07:25:486824,101,systemd-resolve,689,689,0,security_socket_connect,"sockfd: 11, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+04:07:25:486937,101,systemd-resolve,689,689,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 43286 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:07:25:487820,101,systemd-resolve,689,689,0,security_socket_connect,"sockfd: 18, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+04:07:25:488164,101,systemd-resolve,689,689,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 51737 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:07:25:557934,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:127.0.0.53 sin_port:53]",0
+04:07:25:558160,0,NetworkManager,900,10224,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59517 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:07:25:558252,0,NetworkManager,900,10224,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59517 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:07:25:558526,0,NetworkManager,900,10224,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59517 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:07:25:558589,0,NetworkManager,900,10224,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59517 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:07:27:492063,0,swapper/3,0,0,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 43286 17 435 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 91.189.91.98} {A 5 91.189.91.49} {A 5 185.125.190.97} {A 5 185.125.190.48} {A 5 185.125.190.17} {A 5 185.125.190.49} {A 5 185.125.190.18} {A 5 91.189.91.97} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.98} {A 5 185.125.190.96}]}]",0
+04:07:27:492881,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59517 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 91.189.91.98} {A 5 91.189.91.49} {A 5 185.125.190.97} {A 5 185.125.190.48} {A 5 185.125.190.17} {A 5 185.125.190.49} {A 5 185.125.190.18} {A 5 91.189.91.97} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.98} {A 5 185.125.190.96}]}]",0
+04:07:27:492918,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59517 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 91.189.91.98} {A 5 91.189.91.49} {A 5 185.125.190.97} {A 5 185.125.190.48} {A 5 185.125.190.17} {A 5 185.125.190.49} {A 5 185.125.190.18} {A 5 91.189.91.97} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.98} {A 5 185.125.190.96}]}]",0
+04:07:27:493281,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 56679 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 91.189.91.98} {A 5 91.189.91.49} {A 5 185.125.190.97} {A 5 185.125.190.48} {A 5 185.125.190.17} {A 5 185.125.190.49} {A 5 185.125.190.18} {A 5 91.189.91.97} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.98} {A 5 185.125.190.96}]}]",0
+04:07:27:493363,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 56679 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 91.189.91.98} {A 5 91.189.91.49} {A 5 185.125.190.97} {A 5 185.125.190.48} {A 5 185.125.190.17} {A 5 185.125.190.49} {A 5 185.125.190.18} {A 5 91.189.91.97} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.98} {A 5 185.125.190.96}]}]",0
+04:07:27:496619,0,tracee-ebpf,10184,10191,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 51737 17 523 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2001:67c:1562::24} {AAAA 5 2001:67c:1562::23}]}]",0
+04:07:27:497395,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 56679 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2001:67c:1562::24} {AAAA 5 2001:67c:1562::23}]}]",0
+04:07:27:497469,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 56679 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2001:67c:1562::24} {AAAA 5 2001:67c:1562::23}]}]",0
+04:07:27:497742,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.98 sin_port:80]",0
+04:07:27:497818,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59517 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2001:67c:1562::24} {AAAA 5 2001:67c:1562::23}]}]",0
+04:07:27:497840,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59517 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2001:67c:1562::24} {AAAA 5 2001:67c:1562::23}]}]",0
+04:07:27:497891,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.49 sin_port:80]",0
+04:07:27:497908,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.97 sin_port:80]",0
+04:07:27:497922,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.48 sin_port:80]",0
+04:07:27:497934,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.17 sin_port:80]",0
+04:07:27:498029,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.98 sin_port:80]",0
+04:07:27:498082,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.49 sin_port:80]",0
+04:07:27:498184,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.97 sin_port:80]",0
+04:07:27:498199,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.48 sin_port:80]",0
+04:07:27:498212,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.17 sin_port:80]",0
+04:07:27:498229,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.49 sin_port:80]",0
+04:07:27:498242,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.18 sin_port:80]",0
+04:07:27:498255,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.97 sin_port:80]",0
+04:07:27:498267,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.48 sin_port:80]",0
+04:07:27:498303,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.96 sin_port:80]",0
+04:07:27:498286,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.49 sin_port:80]",0
+04:07:27:498302,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.18 sin_port:80]",0
+04:07:27:498315,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.97 sin_port:80]",0
+04:07:27:498318,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.98 sin_port:80]",0
+04:07:27:498328,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.48 sin_port:80]",0
+04:07:27:498409,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.96 sin_port:80]",0
+04:07:27:498424,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.98 sin_port:80]",0
+04:07:27:498436,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.96 sin_port:80]",0
+04:07:27:498471,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498493,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498507,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498520,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498533,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498545,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498558,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498571,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498584,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498596,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498609,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498622,0,NetworkManager,900,10222,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498331,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.96 sin_port:80]",0
+04:07:27:498378,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498402,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498416,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498429,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498442,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498455,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498468,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498481,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498494,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498508,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498521,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498534,0,NetworkManager,900,10224,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498794,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498846,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498883,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498918,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498953,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:498987,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499023,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499096,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499136,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499230,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499272,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499306,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499456,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499498,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499610,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499731,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499781,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499892,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499941,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:499977,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:500011,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:500061,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:500090,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:27:500119,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:07:28:819780,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:28:820081,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:28:823408,0,lxd,2645,2661,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:07:28:824310,0,lxd,2645,2661,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2241056, dev: 8388611, ctime: 1741165648823330275",0
+04:07:38:820213,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:38:820549,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:38:824556,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:07:38:826994,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2241056, dev: 8388611, ctime: 1741165658825406107",0
+04:07:48:820427,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:48:821564,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:48:828721,0,lxd,2645,2661,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:07:48:830945,0,lxd,2645,2661,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2241056, dev: 8388611, ctime: 1741165668827481837",0
+04:07:58:821051,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:58:821475,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:07:58:828483,0,lxd,2645,2661,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:07:58:829981,0,lxd,2645,2661,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2241056, dev: 8388611, ctime: 1741165678827557453",0
+04:08:08:823018,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:08:824035,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:08:832284,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:08:08:833806,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2241056, dev: 8388611, ctime: 1741165688830632995",0
+04:08:18:823298,0,lxd,2645,2661,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:18:823568,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:18:827631,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:08:18:828836,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2241056, dev: 8388611, ctime: 1741165698826708388",0
+04:08:28:823616,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:28:823937,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:28:826861,0,lxd,2645,2666,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:08:28:828035,0,lxd,2645,2666,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2241056, dev: 8388611, ctime: 1741165708825783710",0
+04:08:38:823990,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:38:825132,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:38:835315,0,lxd,2645,2666,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:08:38:837454,0,lxd,2645,2666,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165718834859018",0
+04:08:40:849513,0,snapd,928,4290,0,security_socket_connect,"sockfd: 15, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/notify]",0
+04:08:48:824945,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:48:825824,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:48:839025,0,lxd,2645,3642,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:08:48:840795,0,lxd,2645,3642,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165728837934190",0
+04:08:58:824988,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:58:825212,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:08:58:830110,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:08:58:831233,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165738829009184",0
+04:09:01:591326,0,cron,10229,10229,0,security_socket_connect,"sockfd: 7, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+04:09:01:591404,0,cron,10229,10229,0,security_socket_connect,"sockfd: 7, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+04:09:01:593385,0,(ionclean),10230,10230,10230,setsid,,0
+04:09:01:593601,0,cron,10231,10231,10231,setsid,,0
+04:09:01:593760,0,cron,10231,10231,0,setgid,gid: 0,0
+04:09:01:593888,0,cron,10231,10231,0,setuid,uid: 0,0
+04:09:01:595303,0,sh,10231,10231,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh -c   [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: cron, env: <nil>",0
+04:09:01:595911,0,(ionclean),10230,10230,0,security_socket_connect,"sockfd: 3, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/journal/stdout]",0
+04:09:01:598860,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /, type: <nil>, flags: 540672",0
+04:09:01:598917,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /, path: /run/systemd/unit-root, type: <nil>, flags: 20480",0
+04:09:01:599177,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /run/systemd/unit-root/boot, path: /run/systemd/unit-root/boot, type: <nil>, flags: 20480",0
+04:09:01:601455,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/dir, path: /run/systemd/unit-root/home, type: <nil>, flags: 20480",0
+04:09:01:602082,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/dir, path: /run/systemd/unit-root/root, type: <nil>, flags: 20480",0
+04:09:01:603157,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/dir, path: /run/systemd/unit-root/run/credentials, type: <nil>, flags: 20480",0
+04:09:01:603233,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /run/systemd/propagate/phpsessionclean.service, path: /run/systemd/unit-root/run/systemd/incoming, type: <nil>, flags: 4096",0
+04:09:01:605116,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/dir, path: /run/systemd/unit-root/run/user, type: <nil>, flags: 20480",0
+04:09:01:605247,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /tmp/systemd-private-feac145c0688475180ebad04f21e69fd-phpsessionclean.service-hlvOub/tmp, path: /run/systemd/unit-root/tmp, type: <nil>, flags: 20480",0
+04:09:01:605300,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /run/systemd/unit-root/usr, path: /run/systemd/unit-root/usr, type: <nil>, flags: 20480",0
+04:09:01:605333,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /var/tmp/systemd-private-feac145c0688475180ebad04f21e69fd-phpsessionclean.service-N0vU6i/tmp, path: /run/systemd/unit-root/var/tmp, type: <nil>, flags: 20480",0
+04:09:01:605860,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/boot, type: <nil>, flags: 4129",0
+04:09:01:605898,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/boot/efi, type: <nil>, flags: 4129",0
+04:09:01:607209,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/home, type: <nil>, flags: 4143",0
+04:09:01:608110,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/root, type: <nil>, flags: 4143",0
+04:09:01:609088,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/credentials, type: <nil>, flags: 4143",0
+04:09:01:610047,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/systemd/incoming, type: <nil>, flags: 4143",0
+04:09:01:610948,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/user, type: <nil>, flags: 4143",0
+04:09:01:611912,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/usr, type: <nil>, flags: 4129",0
+04:09:01:612831,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/home, type: <nil>, flags: 4143",0
+04:09:01:613815,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/root, type: <nil>, flags: 4143",0
+04:09:01:615286,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/credentials, type: <nil>, flags: 4143",0
+04:09:01:616281,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/user, type: <nil>, flags: 4143",0
+04:09:01:616817,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: /run/systemd/unit-root, path: /, type: <nil>, flags: 8192",0
+04:09:01:616849,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /, type: <nil>, flags: 1064960",0
+04:09:01:616863,0,(ionclean),10230,10230,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/incoming, type: <nil>, flags: 524288",0
+04:09:01:617770,0,sessionclean,10230,10230,0,sched_process_exec,"cmdpath: /usr/lib/php/sessionclean, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh -e /usr/lib/php/sessionclean], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: (ionclean), env: <nil>",0
+04:09:01:619179,0,phpquery,10235,10235,0,sched_process_exec,"cmdpath: /usr/sbin/phpquery, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/bin/sh /usr/sbin/phpquery -V], interp: /bin/sh, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:619514,0,sort,10236,10236,0,sched_process_exec,"cmdpath: /usr/bin/sort, pathname: /usr/bin/sort, dev: 8388611, inode: 1442907, ctime: 1721354246514017633, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sort -u -t: -k 1,1], interp: /usr/bin/sort, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:619536,0,sort,10234,10234,0,sched_process_exec,"cmdpath: /usr/bin/sort, pathname: /usr/bin/sort, dev: 8388611, inode: 1442907, ctime: 1721354246514017633, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sort -rn -t: -k2,2], interp: /usr/bin/sort, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:621233,0,expr,10237,10237,0,sched_process_exec,"cmdpath: /usr/bin/expr, pathname: /usr/bin/expr, dev: 8388611, inode: 1442090, ctime: 1721354245434204811, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [expr 2 - 1], interp: /usr/bin/expr, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: phpquery, env: <nil>",3
+04:09:01:623336,0,sort,10240,10240,0,sched_process_exec,"cmdpath: /usr/bin/sort, pathname: /usr/bin/sort, dev: 8388611, inode: 1442907, ctime: 1721354246514017633, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sort -rn], interp: /usr/bin/sort, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: phpquery, env: <nil>",3
+04:09:01:623409,0,find,10242,10242,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /usr/lib/php -mindepth 1 -maxdepth 1 -regex .*[0-9]\.[0-9] -printf %f\n], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: phpquery, env: <nil>",3
+04:09:01:626556,0,php8.1,10244,10244,0,sched_process_exec,"cmdpath: /usr/bin/php8.1, pathname: /usr/bin/php8.1, dev: 8388611, inode: 1444741, ctime: 1734347817879064495, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/bin/php8.1 -c /etc/php/8.1/apache2/php.ini -d error_reporting='~E_ALL' -r foreach(ini_get_all(""session"") as $k => $v) echo ""$k="".$v[""local_value""].""\n"";], interp: /usr/bin/php8.1, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:684637,0,sed,10247,10247,0,sched_process_exec,"cmdpath: /usr/bin/sed, pathname: /usr/bin/sed, dev: 8388611, inode: 1442850, ctime: 1721354246354045038, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sed -ne s/^session\.save_handler=\(.*\)$/\1/p], interp: /usr/bin/sed, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:686567,0,sed,10250,10250,0,sched_process_exec,"cmdpath: /usr/bin/sed, pathname: /usr/bin/sed, dev: 8388611, inode: 1442850, ctime: 1721354246354045038, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sed -ne s/^session\.save_path=\(.*;\)\?\(.*\)$/\2/p], interp: /usr/bin/sed, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:688324,0,sed,10253,10253,0,sched_process_exec,"cmdpath: /usr/bin/sed, pathname: /usr/bin/sed, dev: 8388611, inode: 1442850, ctime: 1721354246354045038, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sed -ne s/^session\.gc_maxlifetime=\(.*\)$/\1/p], interp: /usr/bin/sed, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:690321,0,sed,10256,10256,0,sched_process_exec,"cmdpath: /usr/bin/sed, pathname: /usr/bin/sed, dev: 8388611, inode: 1442850, ctime: 1721354246354045038, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sed -e s,@VERSION@,8.1,], interp: /usr/bin/sed, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:691972,0,php8.1,10257,10257,0,sched_process_exec,"cmdpath: /usr/bin/php8.1, pathname: /usr/bin/php8.1, dev: 8388611, inode: 1444741, ctime: 1734347817879064495, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/bin/php8.1 -c /etc/php/8.1/cli/php.ini -d error_reporting='~E_ALL' -r foreach(ini_get_all(""session"") as $k => $v) echo ""$k="".$v[""local_value""].""\n"";], interp: /usr/bin/php8.1, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:732952,0,sed,10260,10260,0,sched_process_exec,"cmdpath: /usr/bin/sed, pathname: /usr/bin/sed, dev: 8388611, inode: 1442850, ctime: 1721354246354045038, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sed -ne s/^session\.save_handler=\(.*\)$/\1/p], interp: /usr/bin/sed, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:735063,0,sed,10263,10263,0,sched_process_exec,"cmdpath: /usr/bin/sed, pathname: /usr/bin/sed, dev: 8388611, inode: 1442850, ctime: 1721354246354045038, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sed -ne s/^session\.save_path=\(.*;\)\?\(.*\)$/\2/p], interp: /usr/bin/sed, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:736843,0,sed,10266,10266,0,sched_process_exec,"cmdpath: /usr/bin/sed, pathname: /usr/bin/sed, dev: 8388611, inode: 1442850, ctime: 1721354246354045038, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sed -ne s/^session\.gc_maxlifetime=\(.*\)$/\1/p], interp: /usr/bin/sed, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:738619,0,sed,10269,10269,0,sched_process_exec,"cmdpath: /usr/bin/sed, pathname: /usr/bin/sed, dev: 8388611, inode: 1442850, ctime: 1721354246354045038, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sed -e s,@VERSION@,8.1,], interp: /usr/bin/sed, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:740463,0,pidof,10270,10270,0,sched_process_exec,"cmdpath: /usr/bin/pidof, pathname: /usr/sbin/killall5, dev: 8388611, inode: 1475839, ctime: 1721354288717057756, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [pidof apache2 php8.1], interp: /usr/bin/pidof, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:754689,0,find,10271,10271,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/10034/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:755947,0,find,10272,10272,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/8365/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:757073,0,find,10273,10273,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/8364/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:758131,0,find,10274,10274,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/8363/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:759212,0,find,10275,10275,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/8362/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:760265,0,find,10276,10276,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/8361/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:761330,0,find,10277,10277,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/7261/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:762369,0,find,10278,10278,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/7260/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:763467,0,find,10279,10279,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/7259/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:764530,0,find,10280,10280,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/7258/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:765633,0,find,10281,10281,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/6777/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:766771,0,find,10282,10282,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/2603/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:768128,0,find,10283,10283,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/2602/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:769300,0,find,10284,10284,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/2601/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:770408,0,find,10285,10285,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/2600/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:771516,0,find,10286,10286,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/2599/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:772683,0,find,10287,10287,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/2145/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:773778,0,find,10288,10288,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find /proc/1112/fd -ignore_readdir_race -lname /var/lib/php/sessions/sess_* -exec touch -c {} ;], interp: /usr/bin/find, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:775162,0,find,10289,10289,0,sched_process_exec,"cmdpath: /usr/bin/find, pathname: /usr/bin/find, dev: 8388611, inode: 1442112, ctime: 1721354245450202008, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [find -O3 /var/lib/php/sessions/ -ignore_readdir_race -depth -mindepth 1 -name sess_* -type f -cmin +24 -delete], interp: /usr/bin/find, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sessionclean, env: <nil>",3
+04:09:01:776561,0,systemd-journal,353,353,0,security_inode_unlink,"pathname: /systemd/journal/streams/8:462314, inode: 2208, dev: 25, ctime: 1741165741596029938",0
+04:09:01:778205,0,systemd,1,1,0,security_inode_unlink,"pathname: /systemd/units/invocation:phpsessionclean.service, inode: 2207, dev: 25, ctime: 1741165741591029901",0
+04:09:08:825297,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:08:826942,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:08:835712,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:09:08:837656,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165748835084205",0
+04:09:18:827231,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:18:827852,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:18:837672,0,lxd,2645,3648,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:09:18:839438,0,lxd,2645,3648,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165758837159111",0
+04:09:28:335892,101,systemd-resolve,689,689,0,security_socket_connect,"sockfd: 11, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+04:09:28:336017,101,systemd-resolve,689,689,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 38640 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:09:28:828179,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:28:828681,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:28:837881,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:09:28:839175,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165768837233919",0
+04:09:30:339130,0,swapper/3,0,0,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 38640 17 407 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 91.189.91.49} {A 5 91.189.91.98} {A 5 185.125.190.49} {A 5 91.189.91.97} {A 5 185.125.190.97} {A 5 91.189.91.48} {A 5 185.125.190.96} {A 5 185.125.190.18} {A 5 185.125.190.17} {A 5 185.125.190.98} {A 5 91.189.91.96} {A 5 185.125.190.48}]}]",0
+04:09:30:340675,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.49 sin_port:80]",0
+04:09:30:607787,0,NetworkManager,900,900,0,net_packet_http_request,"metadata: {192.168.29.168 91.189.91.49 59956 80 6 127 any}, http_request: {GET HTTP/1.1 connectivity-check.ubuntu.com / map[Accept:[*/*] Connection:[close]] 0}",0
+04:09:30:865379,0,swapper/3,0,0,0,net_packet_http_response,"metadata: {91.189.91.49 192.168.29.168 80 59956 6 229 any}, http_response: {204 No Content 204 HTTP/1.1 map[Date:[Wed, 05 Mar 2025 09:09:30 GMT] Server:[nginx/1.14.0 (Ubuntu)] X-Cache-Status:[from content-cache-1ss/1] X-Networkmanager-Status:[online]] 0}",0
+04:09:38:829992,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:38:831520,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:38:835876,0,lxd,2645,3648,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:09:38:836953,0,lxd,2645,3648,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165778835308629",0
+04:09:48:830552,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:48:831795,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:48:842315,0,lxd,2645,3642,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:09:48:844225,0,lxd,2645,3642,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165788842383328",0
+04:09:58:830794,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:58:831629,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:09:58:845167,0,lxd,2645,2666,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:09:58:847186,0,lxd,2645,2666,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165798844457911",0
+04:10:08:831223,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:08:831613,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:08:836840,0,lxd,2645,3648,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:10:08:838146,0,lxd,2645,3648,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165808835532337",0
+04:10:18:833103,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:18:833494,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:18:837541,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:10:18:838675,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165818836606760",0
+04:10:28:834929,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:28:835213,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:28:838269,0,lxd,2645,2666,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:10:28:839098,0,lxd,2645,2666,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165828837681110",0
+04:10:38:835074,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:38:835368,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:38:838539,0,lxd,2645,2666,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:10:38:839521,0,lxd,2645,2666,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165838837755381",0
+04:10:48:835549,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:48:837062,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:48:844756,0,lxd,2645,3642,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:10:48:846242,0,lxd,2645,3642,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165848843829624",0
+04:10:58:835508,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:58:835726,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:10:58:838779,0,lxd,2645,3648,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:10:58:839793,0,lxd,2645,3648,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165858837903709",0
+04:11:08:836624,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:08:837129,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:08:842899,0,lxd,2645,2666,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:11:08:844015,0,lxd,2645,2666,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165868841977801",0
+04:11:10:837856,0,snapd,928,1099,0,security_socket_connect,"sockfd: 15, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/notify]",0
+04:11:13:297456,103,systemd-timesyn,692,692,0,security_socket_bind,"sockfd: 16, local_addr: map[sa_family:AF_INET sin_addr:0.0.0.0 sin_port:0]",0
+04:11:18:837088,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:18:838353,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:18:848122,0,lxd,2645,3648,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:11:18:850132,0,lxd,2645,3648,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165878847931186",0
+04:11:28:837913,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:28:839047,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:28:851620,0,lxd,2645,2666,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:11:28:853733,0,lxd,2645,2666,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165888850761771",0
+04:11:38:838573,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:38:839503,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:38:847176,0,lxd,2645,3642,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:11:38:848843,0,lxd,2645,3642,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165898846596593",0
+04:11:48:840423,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:48:841928,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:48:852650,0,lxd,2645,3648,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:11:48:854378,0,lxd,2645,3648,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165908852435294",0
+04:11:58:840624,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:58:841197,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:11:58:846641,0,lxd,2645,2666,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:11:58:848297,0,lxd,2645,2666,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165918846278150",0
+04:12:08:841632,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:08:841919,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:08:845196,0,lxd,2645,3648,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:12:08:846048,0,lxd,2645,3648,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165928844124828",0
+04:12:09:575459,101,systemd-resolve,689,689,0,security_socket_connect,"sockfd: 11, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+04:12:09:575670,101,systemd-resolve,689,689,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 44376 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:12:11:581449,0,ksoftirqd/3,36,36,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 44376 17 523 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2001:67c:1562::24} {AAAA 5 2001:67c:1562::23} {AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4002:1::196}]}]",0
+04:12:11:582408,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582510,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582539,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582560,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582579,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582598,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582617,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582636,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582657,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582676,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582720,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:11:582743,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:13:068827,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:127.0.0.53 sin_port:53]",0
+04:12:13:068922,0,NetworkManager,900,10296,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 40073 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:12:13:068959,0,NetworkManager,900,10296,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 40073 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:12:13:069017,0,NetworkManager,900,10296,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 40073 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:12:13:069037,0,NetworkManager,900,10296,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 40073 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:12:13:069283,101,systemd-resolve,689,689,0,security_socket_connect,"sockfd: 11, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+04:12:13:069435,101,systemd-resolve,689,689,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 45056 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:12:13:070270,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 40073 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 3 2620:2d:4000:1::96} {AAAA 3 2001:67c:1562::23} {AAAA 3 2620:2d:4000:1::23} {AAAA 3 2620:2d:4000:1::22} {AAAA 3 2620:2d:4000:1::2b} {AAAA 3 2001:67c:1562::24} {AAAA 3 2620:2d:4000:1::98} {AAAA 3 2620:2d:4002:1::198} {AAAA 3 2620:2d:4000:1::97} {AAAA 3 2620:2d:4002:1::197} {AAAA 3 2620:2d:4000:1::2a} {AAAA 3 2620:2d:4002:1::196}]}]",0
+04:12:13:070331,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 40073 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 3 2620:2d:4000:1::96} {AAAA 3 2001:67c:1562::23} {AAAA 3 2620:2d:4000:1::23} {AAAA 3 2620:2d:4000:1::22} {AAAA 3 2620:2d:4000:1::2b} {AAAA 3 2001:67c:1562::24} {AAAA 3 2620:2d:4000:1::98} {AAAA 3 2620:2d:4002:1::198} {AAAA 3 2620:2d:4000:1::97} {AAAA 3 2620:2d:4002:1::197} {AAAA 3 2620:2d:4000:1::2a} {AAAA 3 2620:2d:4002:1::196}]}]",0
+04:12:15:073431,0,swapper/3,0,0,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 45056 17 435 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 91.189.91.98} {A 5 185.125.190.97} {A 5 91.189.91.48} {A 5 91.189.91.97} {A 5 185.125.190.18} {A 5 185.125.190.17} {A 5 185.125.190.96} {A 5 185.125.190.98} {A 5 185.125.190.48} {A 5 91.189.91.49} {A 5 185.125.190.49} {A 5 91.189.91.96}]}]",0
+04:12:15:074717,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 40073 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 91.189.91.98} {A 5 185.125.190.97} {A 5 91.189.91.48} {A 5 91.189.91.97} {A 5 185.125.190.18} {A 5 185.125.190.17} {A 5 185.125.190.96} {A 5 185.125.190.98} {A 5 185.125.190.48} {A 5 91.189.91.49} {A 5 185.125.190.49} {A 5 91.189.91.96}]}]",0
+04:12:15:074764,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 40073 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 91.189.91.98} {A 5 185.125.190.97} {A 5 91.189.91.48} {A 5 91.189.91.97} {A 5 185.125.190.18} {A 5 185.125.190.17} {A 5 185.125.190.96} {A 5 185.125.190.98} {A 5 185.125.190.48} {A 5 91.189.91.49} {A 5 185.125.190.49} {A 5 91.189.91.96}]}]",0
+04:12:15:075142,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075222,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075245,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075264,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075282,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075312,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075331,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075349,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075367,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075385,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075405,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075424,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:075543,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.98 sin_port:80]",0
+04:12:15:075631,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.97 sin_port:80]",0
+04:12:15:075658,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.48 sin_port:80]",0
+04:12:15:075676,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.97 sin_port:80]",0
+04:12:15:075693,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.18 sin_port:80]",0
+04:12:15:075710,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.17 sin_port:80]",0
+04:12:15:075728,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.96 sin_port:80]",0
+04:12:15:075745,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.98 sin_port:80]",0
+04:12:15:075762,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.48 sin_port:80]",0
+04:12:15:075779,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.49 sin_port:80]",0
+04:12:15:075796,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.49 sin_port:80]",0
+04:12:15:075813,0,NetworkManager,900,10296,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.96 sin_port:80]",0
+04:12:15:076185,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:076367,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:076456,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:076672,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:076767,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:076852,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:076985,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:077157,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:077305,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:077477,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:077697,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:15:077810,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:18:842042,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:18:842318,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:18:845945,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:12:18:846820,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165938844975269",0
+04:12:25:483287,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:127.0.0.53 sin_port:53]",0
+04:12:25:483340,0,NetworkManager,900,10301,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59083 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:12:25:483361,0,NetworkManager,900,10301,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59083 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:12:25:483411,0,NetworkManager,900,10301,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59083 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:12:25:483433,0,NetworkManager,900,10301,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 59083 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:12:25:483517,101,systemd-resolve,689,689,0,security_socket_connect,"sockfd: 11, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+04:12:25:483550,101,systemd-resolve,689,689,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 43127 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:12:25:483694,101,systemd-resolve,689,689,0,security_socket_connect,"sockfd: 18, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.2 sin_port:53]",0
+04:12:25:483746,101,systemd-resolve,689,689,0,net_packet_dns_request,"metadata: {192.168.29.168 192.168.29.2 42325 53 17 75 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:12:25:554032,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:127.0.0.53 sin_port:53]",0
+04:12:25:554083,0,NetworkManager,900,10302,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 52434 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:12:25:554104,0,NetworkManager,900,10302,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 52434 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com A IN}]",0
+04:12:25:554131,0,NetworkManager,900,10302,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 52434 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:12:25:554144,0,NetworkManager,900,10302,0,net_packet_dns_request,"metadata: {127.0.0.1 127.0.0.53 52434 53 17 86 any}, dns_questions: [{connectivity-check.ubuntu.com AAAA IN}]",0
+04:12:27:426026,0,systemd-logind,934,934,0,security_inode_unlink,"pathname: /systemd/inhibit/32.ref, inode: 2203, dev: 25, ctime: 1741165318305752229",0
+04:12:27:426068,0,systemd-logind,934,934,0,security_inode_unlink,"pathname: /systemd/inhibit/32, inode: 2204, dev: 25, ctime: 1741165318305752229",0
+04:12:27:457521,1000,gnome-terminal-,4385,4385,15,memfd_create,"name: gdk-wayland, flags: 1",0
+04:12:27:472259,1000,gnome-terminal-,4385,4385,15,memfd_create,"name: gdk-wayland, flags: 1",0
+04:12:27:485893,0,swapper/3,0,0,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 43127 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 185.125.190.97} {A 5 91.189.91.97} {A 5 185.125.190.49} {A 5 91.189.91.49} {A 5 185.125.190.18} {A 5 91.189.91.98} {A 5 185.125.190.98} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.17} {A 5 185.125.190.96} {A 5 185.125.190.48}]}]",0
+04:12:27:486318,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59083 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 185.125.190.97} {A 5 91.189.91.97} {A 5 185.125.190.49} {A 5 91.189.91.49} {A 5 185.125.190.18} {A 5 91.189.91.98} {A 5 185.125.190.98} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.17} {A 5 185.125.190.96} {A 5 185.125.190.48}]}]",0
+04:12:27:486360,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59083 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 185.125.190.97} {A 5 91.189.91.97} {A 5 185.125.190.49} {A 5 91.189.91.49} {A 5 185.125.190.18} {A 5 91.189.91.98} {A 5 185.125.190.98} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.17} {A 5 185.125.190.96} {A 5 185.125.190.48}]}]",0
+04:12:27:486592,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 52434 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 185.125.190.97} {A 5 91.189.91.97} {A 5 185.125.190.49} {A 5 91.189.91.49} {A 5 185.125.190.18} {A 5 91.189.91.98} {A 5 185.125.190.98} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.17} {A 5 185.125.190.96} {A 5 185.125.190.48}]}]",0
+04:12:27:486616,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 52434 17 446 any}, dns_response: [{{connectivity-check.ubuntu.com A IN} [{A 5 185.125.190.97} {A 5 91.189.91.97} {A 5 185.125.190.49} {A 5 91.189.91.49} {A 5 185.125.190.18} {A 5 91.189.91.98} {A 5 185.125.190.98} {A 5 91.189.91.48} {A 5 91.189.91.96} {A 5 185.125.190.17} {A 5 185.125.190.96} {A 5 185.125.190.48}]}]",0
+04:12:27:489277,0,swapper/3,0,0,0,net_packet_dns_response,"metadata: {192.168.29.2 192.168.29.168 53 42325 17 523 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2001:67c:1562::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2001:67c:1562::24}]}]",0
+04:12:27:489642,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 52434 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2001:67c:1562::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2001:67c:1562::24}]}]",0
+04:12:27:489675,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 52434 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2001:67c:1562::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2001:67c:1562::24}]}]",0
+04:12:27:489846,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.97 sin_port:80]",0
+04:12:27:489878,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.97 sin_port:80]",0
+04:12:27:489887,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.49 sin_port:80]",0
+04:12:27:489870,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59083 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2001:67c:1562::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2001:67c:1562::24}]}]",0
+04:12:27:489881,101,systemd-resolve,689,689,0,net_packet_dns_response,"metadata: {127.0.0.53 127.0.0.1 53 59083 17 534 any}, dns_response: [{{connectivity-check.ubuntu.com AAAA IN} [{AAAA 5 2620:2d:4000:1::23} {AAAA 5 2620:2d:4002:1::197} {AAAA 5 2620:2d:4002:1::196} {AAAA 5 2620:2d:4002:1::198} {AAAA 5 2620:2d:4000:1::2b} {AAAA 5 2620:2d:4000:1::97} {AAAA 5 2001:67c:1562::23} {AAAA 5 2620:2d:4000:1::96} {AAAA 5 2620:2d:4000:1::98} {AAAA 5 2620:2d:4000:1::2a} {AAAA 5 2620:2d:4000:1::22} {AAAA 5 2001:67c:1562::24}]}]",0
+04:12:27:489895,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.49 sin_port:80]",0
+04:12:27:489902,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.18 sin_port:80]",0
+04:12:27:489922,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.98 sin_port:80]",0
+04:12:27:489930,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.98 sin_port:80]",0
+04:12:27:489937,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.48 sin_port:80]",0
+04:12:27:489945,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.96 sin_port:80]",0
+04:12:27:489952,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.17 sin_port:80]",0
+04:12:27:489959,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.96 sin_port:80]",0
+04:12:27:489966,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.48 sin_port:80]",0
+04:12:27:489984,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:489999,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490007,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490014,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490022,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490029,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490036,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490043,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490050,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490058,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490065,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490072,0,NetworkManager,900,10302,0,security_socket_connect,"sockfd: 35, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490220,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 33, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490291,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490317,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490032,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.97 sin_port:80]",0
+04:12:27:490045,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.97 sin_port:80]",0
+04:12:27:490053,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.49 sin_port:80]",0
+04:12:27:490060,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.49 sin_port:80]",0
+04:12:27:490067,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.18 sin_port:80]",0
+04:12:27:490074,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.98 sin_port:80]",0
+04:12:27:490081,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.98 sin_port:80]",0
+04:12:27:490088,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.48 sin_port:80]",0
+04:12:27:490096,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:91.189.91.96 sin_port:80]",0
+04:12:27:490103,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.17 sin_port:80]",0
+04:12:27:490110,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.96 sin_port:80]",0
+04:12:27:490117,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET sin_addr:185.125.190.48 sin_port:80]",0
+04:12:27:490130,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490141,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490149,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490156,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490163,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490170,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490178,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490185,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490192,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490199,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490206,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490213,0,NetworkManager,900,10301,0,security_socket_connect,"sockfd: 30, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490337,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490356,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490430,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490469,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490523,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490562,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490615,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490653,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490707,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 30, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490855,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490916,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::197 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:490955,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::196 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:491030,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4002:1::198 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:491069,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2b sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:491124,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::97 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:491162,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::23 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:491182,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::96 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:491201,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::98 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:491220,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::2a sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:491238,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2620:2d:4000:1::22 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:27:491257,0,NetworkManager,900,900,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET6 sin6_addr:2001:67c:1562::24 sin6_flowinfo:0 sin6_port:80 sin6_scopeid:0]",0
+04:12:28:842711,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:28:843309,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:28:849901,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:12:28:851244,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165948848829406",0
+04:12:38:843370,0,lxd,2645,2666,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:38:843962,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:38:850115,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:12:38:851528,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165958848687268",0
+04:12:48:843764,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:48:844246,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:48:849090,0,lxd,2645,3648,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:12:48:850215,0,lxd,2645,3648,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165968847548737",0
+04:12:52:282077,33,apache2,8362,8362,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_INET sin_addr:192.168.29.220 sin_port:48804]",3
+04:12:52:288745,33,sh,10315,10315,0,sched_process_exec,"cmdpath: /bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c uname -a; w; id; sh -i], interp: /bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: apache2, env: <nil>",3
+04:12:52:290737,33,uname,10316,10316,0,sched_process_exec,"cmdpath: /usr/bin/uname, pathname: /usr/bin/uname, dev: 8388611, inode: 1443044, ctime: 1721354246753976525, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [uname -a], interp: /usr/bin/uname, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:52:292983,33,w,10317,10317,0,sched_process_exec,"cmdpath: /usr/bin/w, pathname: /usr/bin/w, dev: 8388611, inode: 1443089, ctime: 1721354246793969675, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [w], interp: /usr/bin/w, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:52:296871,33,w,10317,10317,0,security_socket_connect,"sockfd: 4, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:296922,33,w,10317,10317,0,security_socket_connect,"sockfd: 4, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:308392,33,id,10318,10318,0,sched_process_exec,"cmdpath: /usr/bin/id, pathname: /usr/bin/id, dev: 8388611, inode: 1442354, ctime: 1721354245934117240, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [id], interp: /usr/bin/id, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:52:309289,33,id,10318,10318,0,security_socket_connect,"sockfd: 3, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:309328,33,id,10318,10318,0,security_socket_connect,"sockfd: 3, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:309399,33,id,10318,10318,0,security_socket_connect,"sockfd: 3, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:309416,33,id,10318,10318,0,security_socket_connect,"sockfd: 3, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:309859,33,sh,10319,10319,0,sched_process_exec,"cmdpath: /usr/bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -i], interp: /usr/bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:52:599311,33,sudo,10320,10320,0,sched_process_exec,"cmdpath: /usr/bin/sudo, pathname: /usr/bin/sudo, dev: 8388611, inode: 1442945, ctime: 1721354246574007356, inode_mode: 35309, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sudo find . -exec /bin/bash ; -quit], interp: /usr/bin/sudo, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:52:610294,33,sudo,10320,10320,0,security_socket_connect,"sockfd: 3, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:610494,33,sudo,10320,10320,0,security_socket_connect,"sockfd: 3, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:618287,0,sudo,10320,10320,0,setresuid,"ruid: 0, euid: -1, suid: -1",3
+04:12:52:618362,0,sudo,10320,10320,0,setresgid,"rgid: -1, egid: 0, sgid: -1",3
+04:12:52:618393,0,sudo,10320,10320,0,setresuid,"ruid: -1, euid: 1, suid: -1",3
+04:12:52:618928,0,sudo,10320,10320,0,setresuid,"ruid: -1, euid: 0, suid: -1",3
+04:12:52:618978,0,sudo,10320,10320,0,setresgid,"rgid: -1, egid: -1, sgid: -1",3
+04:12:52:618990,0,sudo,10320,10320,0,setresuid,"ruid: -1, euid: 0, suid: -1",3
+04:12:52:620541,0,sudo,10320,10320,0,setresuid,"ruid: -1, euid: 1, suid: -1",3
+04:12:52:621000,0,sudo,10320,10320,0,setresuid,"ruid: -1, euid: 0, suid: -1",3
+04:12:52:621035,0,sudo,10320,10320,0,setresgid,"rgid: -1, egid: -1, sgid: -1",3
+04:12:52:621045,0,sudo,10320,10320,0,setresuid,"ruid: -1, euid: 0, suid: -1",3
+04:12:52:621128,0,sudo,10320,10320,0,security_socket_connect,"sockfd: 6, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:621188,0,sudo,10320,10320,0,security_socket_connect,"sockfd: 6, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:621590,0,sudo,10320,10320,0,setresgid,"rgid: -1, egid: 33, sgid: -1",3
+04:12:52:621625,33,sudo,10320,10320,0,setresuid,"ruid: 33, euid: -1, suid: -1",3
+04:12:52:621667,33,sudo,10320,10320,0,setresgid,"rgid: -1, egid: 0, sgid: -1",3
+04:12:52:621739,33,sudo,10320,10320,0,security_socket_connect,"sockfd: 6, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:621770,33,sudo,10320,10320,0,security_socket_connect,"sockfd: 6, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",3
+04:12:52:622153,33,sudo,10320,10320,0,setresgid,"rgid: -1, egid: 33, sgid: -1",3
+04:12:52:622194,33,sudo,10320,10320,0,setresuid,"ruid: -1, euid: -1, suid: -1",3
+04:12:52:622208,33,sudo,10320,10320,0,setresgid,"rgid: -1, egid: 0, sgid: -1",3
+04:12:52:622260,33,sudo,10320,10320,0,setresgid,"rgid: -1, egid: 33, sgid: -1",3
+04:12:52:622294,33,sudo,10320,10320,0,setresuid,"ruid: -1, euid: -1, suid: -1",3
+04:12:52:627143,33,sudo,10320,10320,0,fchown,"fd: 7, owner: 0, group: 0",3
+04:12:52:627188,33,sudo,10320,10320,0,chown,"pathname: /run/sudo/ts, owner: 0, group: 0",3
+04:12:52:627569,33,sudo,10320,10320,0,security_socket_connect,"sockfd: 7, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/dev/log]",3
+04:12:53:602519,33,rm,10321,10321,0,sched_process_exec,"cmdpath: /usr/bin/rm, pathname: /usr/bin/rm, dev: 8388611, inode: 1442813, ctime: 1721354246318051204, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [rm -drf /tmp/cgroup_mount/], interp: /usr/bin/rm, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:53:908830,33,mkdir,10322,10322,0,sched_process_exec,"cmdpath: /usr/bin/mkdir, pathname: /usr/bin/mkdir, dev: 8388611, inode: 1442528, ctime: 1721354246050097108, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [mkdir /tmp/cgroup_mount], interp: /usr/bin/mkdir, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:54:210928,33,mount,10323,10323,0,sched_process_exec,"cmdpath: /usr/bin/mount, pathname: /usr/bin/mount, dev: 8388611, inode: 1442298, ctime: 1721387635148632698, inode_mode: 35309, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [mount -t cgroup -o rdma cgroup /tmp/cgroup_mount/], interp: /usr/bin/mount, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:54:216952,33,mount,10323,10323,0,setgid,gid: 33,3
+04:12:54:217080,33,mount,10323,10323,0,setuid,uid: 33,3
+04:12:54:217106,33,mount,10323,10323,-1,setuid,uid: 0,3
+04:12:54:218293,33,mount,10323,10323,0,security_sb_mount,"dev_name: cgroup, path: /tmp/cgroup_mount, type: cgroup, flags: 0",3
+04:12:54:510291,33,mkdir,10324,10324,0,sched_process_exec,"cmdpath: /usr/bin/mkdir, pathname: /usr/bin/mkdir, dev: 8388611, inode: 1442528, ctime: 1721354246050097108, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [mkdir /tmp/cgroup_mount/test], interp: /usr/bin/mkdir, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:55:115193,33,sed,10325,10325,0,sched_process_exec,"cmdpath: /usr/bin/sed, pathname: /usr/bin/sed, dev: 8388611, inode: 1442850, ctime: 1721354246354045038, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sed -n s/.*\perdir=\([^,]*\).*/\1/p /etc/mtab], interp: /usr/bin/sed, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:56:623324,33,chmod,10326,10326,0,sched_process_exec,"cmdpath: /usr/bin/chmod, pathname: /usr/bin/chmod, dev: 8388611, inode: 1441959, ctime: 1721354245342220923, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [chmod a+x /escapingDocker], interp: /usr/bin/chmod, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:56:925066,33,sh,10327,10327,0,sched_process_exec,"cmdpath: /usr/bin/sh, pathname: /usr/bin/dash, dev: 8388611, inode: 1441994, ctime: 1721354245362217420, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [sh -c echo $$ > /tmp/cgroup_mount/test/cgroup.procs], interp: /usr/bin/sh, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:57:233454,33,umount,10328,10328,0,sched_process_exec,"cmdpath: /usr/bin/umount, pathname: /usr/bin/umount, dev: 8388611, inode: 1442299, ctime: 1721387635148632698, inode_mode: 35309, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [umount /tmp/cgroup_mount], interp: /usr/bin/umount, stdin_type: S_IFIFO, stdin_path: , invoked_from_kernel: 0, prev_comm: sh, env: <nil>",3
+04:12:57:238447,33,umount,10329,10329,0,setgid,gid: 33,3
+04:12:57:238609,33,umount,10329,10329,0,setuid,uid: 33,3
+04:12:58:844317,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:58:845303,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:12:58:857021,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:12:58:858971,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165978856413598",0
+04:13:08:844583,0,lxd,2645,3641,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:08:844973,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:08:848345,0,lxd,2645,3642,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:13:08:849241,0,lxd,2645,3642,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165988848282143",0
+04:13:18:845185,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:18:846369,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:18:858625,0,lxd,2645,3641,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:13:18:861225,0,lxd,2645,3641,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741165998858153842",0
+04:13:27:634698,0,(fprintd),10336,10336,10336,setsid,,0
+04:13:27:641248,0,(fprintd),10336,10336,0,security_socket_connect,"sockfd: 3, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/journal/stdout]",0
+04:13:27:642520,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /, type: <nil>, flags: 540672",0
+04:13:27:642592,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /, path: /run/systemd/unit-root, type: <nil>, flags: 20480",0
+04:13:27:645388,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/chr, path: /run/systemd/unit-root/dev/kmsg, type: <nil>, flags: 20480",0
+04:13:27:645941,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/dir, path: /run/systemd/unit-root/home, type: <nil>, flags: 20480",0
+04:13:27:648606,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: proc, path: /run/systemd/unit-root/proc, type: proc, flags: 14",0
+04:13:27:648713,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/acpi, path: /run/systemd/unit-root/proc/acpi, type: <nil>, flags: 20480",0
+04:13:27:648774,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/asound, path: /run/systemd/unit-root/proc/asound, type: <nil>, flags: 20480",0
+04:13:27:648811,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/bus, path: /run/systemd/unit-root/proc/bus, type: <nil>, flags: 20480",0
+04:13:27:648847,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/fs, path: /run/systemd/unit-root/proc/fs, type: <nil>, flags: 20480",0
+04:13:27:648929,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/irq, path: /run/systemd/unit-root/proc/irq, type: <nil>, flags: 20480",0
+04:13:27:649654,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/reg, path: /run/systemd/unit-root/proc/kallsyms, type: <nil>, flags: 20480",0
+04:13:27:650235,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/reg, path: /run/systemd/unit-root/proc/kcore, type: <nil>, flags: 20480",0
+04:13:27:650764,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/reg, path: /run/systemd/unit-root/proc/kmsg, type: <nil>, flags: 20480",0
+04:13:27:650829,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/latency_stats, path: /run/systemd/unit-root/proc/latency_stats, type: <nil>, flags: 20480",0
+04:13:27:650900,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/mtrr, path: /run/systemd/unit-root/proc/mtrr, type: <nil>, flags: 20480",0
+04:13:27:650957,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/scsi, path: /run/systemd/unit-root/proc/scsi, type: <nil>, flags: 20480",0
+04:13:27:650995,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/sys, path: /run/systemd/unit-root/proc/sys, type: <nil>, flags: 20480",0
+04:13:27:651054,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/proc/sysrq-trigger, path: /run/systemd/unit-root/proc/sysrq-trigger, type: <nil>, flags: 20480",0
+04:13:27:651601,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/dir, path: /run/systemd/unit-root/root, type: <nil>, flags: 20480",0
+04:13:27:652811,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/dir, path: /run/systemd/unit-root/run/credentials, type: <nil>, flags: 20480",0
+04:13:27:652876,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/propagate/fprintd.service, path: /run/systemd/unit-root/run/systemd/incoming, type: <nil>, flags: 4096",0
+04:13:27:654961,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/dir, path: /run/systemd/unit-root/run/user, type: <nil>, flags: 20480",0
+04:13:27:655059,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root/sys/devices, path: /run/systemd/unit-root/sys/devices, type: <nil>, flags: 20480",0
+04:13:27:655212,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /tmp/systemd-private-feac145c0688475180ebad04f21e69fd-fprintd.service-uRBaCc/tmp, path: /run/systemd/unit-root/tmp, type: <nil>, flags: 20480",0
+04:13:27:655772,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/inaccessible/dir, path: /run/systemd/unit-root/usr/lib/modules, type: <nil>, flags: 20480",0
+04:13:27:655879,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /var/lib/fprint, path: /run/systemd/unit-root/var/lib/fprint, type: <nil>, flags: 20480",0
+04:13:27:655939,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /var/tmp/systemd-private-feac145c0688475180ebad04f21e69fd-fprintd.service-TggS6p/tmp, path: /run/systemd/unit-root/var/tmp, type: <nil>, flags: 20480",0
+04:13:27:657416,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/media/shui/Ubuntu 22.04.4 LTS amd64, type: <nil>, flags: 4135",0
+04:13:27:657468,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snap-store/1113, type: <nil>, flags: 4133",0
+04:13:27:657484,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/firefox/5836, type: <nil>, flags: 4133",0
+04:13:27:657500,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/lib/docker/overlay2/d31d3d11b7b098573b7d430861eca067d6106d85b7f0ef915b210ff0b806763c/merged, type: <nil>, flags: 4129",0
+04:13:27:657536,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root, type: <nil>, flags: 4129",0
+04:13:27:657554,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/gtk-common-themes/1535, type: <nil>, flags: 4133",0
+04:13:27:657569,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/gnome-42-2204/141, type: <nil>, flags: 4133",0
+04:13:27:657584,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/bare/5, type: <nil>, flags: 4133",0
+04:13:27:657598,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snapd-desktop-integration/253, type: <nil>, flags: 4133",0
+04:13:27:657612,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snapd/23258, type: <nil>, flags: 4133",0
+04:13:27:657626,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/lib/docker/overlay2/2c59213d034d4dc65b4c36ef2d7618b61e7db7e6b58e0048baadc6c8e5c2eef3/merged, type: <nil>, flags: 4129",0
+04:13:27:657649,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/core22/1748, type: <nil>, flags: 4133",0
+04:13:27:657680,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/boot/efi, type: <nil>, flags: 4129",0
+04:13:27:657696,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/lxd/32455, type: <nil>, flags: 4133",0
+04:13:27:657725,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snap-store/1216, type: <nil>, flags: 4133",0
+04:13:27:657741,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/lxd/31214, type: <nil>, flags: 4133",0
+04:13:27:657757,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/snap/lxd/common/ns, type: <nil>, flags: 4129",0
+04:13:27:657772,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/firefox/5783, type: <nil>, flags: 4133",0
+04:13:27:657786,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snapd-desktop-integration/247, type: <nil>, flags: 4133",0
+04:13:27:657801,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/snap/firefox/common/host-hunspell, type: <nil>, flags: 5161",0
+04:13:27:657814,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snapd/23545, type: <nil>, flags: 4133",0
+04:13:27:657828,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/gnome-42-2204/176, type: <nil>, flags: 4133",0
+04:13:27:657842,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/core22/1722, type: <nil>, flags: 4133",0
+04:13:27:659506,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/kmsg, type: <nil>, flags: 4143",0
+04:13:27:660567,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/home, type: <nil>, flags: 4143",0
+04:13:27:661602,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/acpi, type: <nil>, flags: 4143",0
+04:13:27:663292,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/asound, type: <nil>, flags: 4143",0
+04:13:27:664107,0,gdm-session-wor,2672,2672,0,security_socket_bind,"sockfd: 9, local_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:27:664198,0,gdm-session-wor,2672,2672,0,security_socket_bind,"sockfd: 10, local_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:27:664508,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/bus, type: <nil>, flags: 4143",0
+04:13:27:665504,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/fs, type: <nil>, flags: 4143",0
+04:13:27:666581,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/irq, type: <nil>, flags: 4143",0
+04:13:27:667592,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kallsyms, type: <nil>, flags: 4143",0
+04:13:27:668635,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kcore, type: <nil>, flags: 4143",0
+04:13:27:669621,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kmsg, type: <nil>, flags: 4143",0
+04:13:27:670775,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/latency_stats, type: <nil>, flags: 4143",0
+04:13:27:671822,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/mtrr, type: <nil>, flags: 4143",0
+04:13:27:672865,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/scsi, type: <nil>, flags: 4143",0
+04:13:27:674013,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/sys, type: <nil>, flags: 4143",0
+04:13:27:675120,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/sysrq-trigger, type: <nil>, flags: 4143",0
+04:13:27:675805,1000,pool-gnome-shel,2952,10338,0,security_socket_connect,"sockfd: 122, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:27:677624,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/root, type: <nil>, flags: 4143",0
+04:13:27:678689,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/credentials, type: <nil>, flags: 4143",0
+04:13:27:679769,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/systemd/incoming, type: <nil>, flags: 4143",0
+04:13:27:680790,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/user, type: <nil>, flags: 4143",0
+04:13:27:681973,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys, type: <nil>, flags: 4143",0
+04:13:27:682015,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/fuse/connections, type: <nil>, flags: 4143",0
+04:13:27:682034,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/pstore, type: <nil>, flags: 4143",0
+04:13:27:682054,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/security, type: <nil>, flags: 4143",0
+04:13:27:682072,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/config, type: <nil>, flags: 4143",0
+04:13:27:683174,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/bpf, type: <nil>, flags: 4143",0
+04:13:27:684224,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/cgroup, type: <nil>, flags: 4143",0
+04:13:27:685246,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/debug, type: <nil>, flags: 4143",0
+04:13:27:685284,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/debug/tracing, type: <nil>, flags: 4143",0
+04:13:27:686284,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/tracing, type: <nil>, flags: 4143",0
+04:13:27:687270,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/usr/lib/modules, type: <nil>, flags: 4143",0
+04:13:27:688291,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/kmsg, type: <nil>, flags: 4143",0
+04:13:27:689367,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/home, type: <nil>, flags: 4143",0
+04:13:27:690458,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc, type: <nil>, flags: 4142",0
+04:13:27:691538,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kallsyms, type: <nil>, flags: 4143",0
+04:13:27:692510,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kcore, type: <nil>, flags: 4143",0
+04:13:27:693496,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kmsg, type: <nil>, flags: 4143",0
+04:13:27:694475,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/root, type: <nil>, flags: 4143",0
+04:13:27:695485,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/credentials, type: <nil>, flags: 4143",0
+04:13:27:696589,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/user, type: <nil>, flags: 4143",0
+04:13:27:697980,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys, type: <nil>, flags: 4143",0
+04:13:27:698026,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/fuse/connections, type: <nil>, flags: 4143",0
+04:13:27:698044,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/pstore, type: <nil>, flags: 4143",0
+04:13:27:698060,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/security, type: <nil>, flags: 4143",0
+04:13:27:698095,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/config, type: <nil>, flags: 4143",0
+04:13:27:699234,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/usr/lib/modules, type: <nil>, flags: 4143",0
+04:13:27:700415,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/core22/1748, type: <nil>, flags: 4135",0
+04:13:27:700452,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/fs, type: <nil>, flags: 4143",0
+04:13:27:700469,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/pts, type: <nil>, flags: 4138",0
+04:13:27:700485,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/lib/docker/overlay2/d31d3d11b7b098573b7d430861eca067d6106d85b7f0ef915b210ff0b806763c/merged, type: <nil>, flags: 4131",0
+04:13:27:700505,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/gnome-42-2204/141, type: <nil>, flags: 4135",0
+04:13:27:700518,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/tmp, type: <nil>, flags: 4130",0
+04:13:27:700533,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/firefox/5836, type: <nil>, flags: 4135",0
+04:13:27:700548,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/user, type: <nil>, flags: 4143",0
+04:13:27:700578,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snapd/23545, type: <nil>, flags: 4135",0
+04:13:27:700608,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/mqueue, type: <nil>, flags: 4142",0
+04:13:27:700626,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snapd/23258, type: <nil>, flags: 4135",0
+04:13:27:700662,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/boot/efi, type: <nil>, flags: 4131",0
+04:13:27:700692,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/bus, type: <nil>, flags: 4143",0
+04:13:27:700729,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys, type: <nil>, flags: 4143",0
+04:13:27:700745,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/snap/firefox/common/host-hunspell, type: <nil>, flags: 5163",0
+04:13:27:700762,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/firefox/5783, type: <nil>, flags: 4135",0
+04:13:27:700776,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kcore, type: <nil>, flags: 4143",0
+04:13:27:700807,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/debug/tracing, type: <nil>, flags: 4143",0
+04:13:27:700825,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/cgroup, type: <nil>, flags: 4143",0
+04:13:27:700855,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/devices, type: <nil>, flags: 4142",0
+04:13:27:700872,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/bpf, type: <nil>, flags: 4143",0
+04:13:27:700901,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snap-store/1216, type: <nil>, flags: 4135",0
+04:13:27:700916,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/credentials, type: <nil>, flags: 4143",0
+04:13:27:700957,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/lxd/32455, type: <nil>, flags: 4135",0
+04:13:27:700988,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/pstore, type: <nil>, flags: 4143",0
+04:13:27:701003,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/sys, type: <nil>, flags: 4143",0
+04:13:27:701018,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/security, type: <nil>, flags: 4143",0
+04:13:27:701031,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/gnome-42-2204/176, type: <nil>, flags: 4135",0
+04:13:27:701044,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/root, type: <nil>, flags: 4143",0
+04:13:27:701072,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snapd-desktop-integration/253, type: <nil>, flags: 4135",0
+04:13:27:701089,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/tmp, type: <nil>, flags: 4130",0
+04:13:27:701102,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/kmsg, type: <nil>, flags: 4143",0
+04:13:27:701130,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kmsg, type: <nil>, flags: 4143",0
+04:13:27:701148,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/fuse/connections, type: <nil>, flags: 4143",0
+04:13:27:701178,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/snap/lxd/common/ns, type: <nil>, flags: 4131",0
+04:13:27:701209,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/asound, type: <nil>, flags: 4143",0
+04:13:27:701224,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run, type: <nil>, flags: 4142",0
+04:13:27:701239,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/bare/5, type: <nil>, flags: 4135",0
+04:13:27:701268,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/mtrr, type: <nil>, flags: 4143",0
+04:13:27:701283,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/home, type: <nil>, flags: 4143",0
+04:13:27:701312,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/systemd/incoming, type: <nil>, flags: 4143",0
+04:13:27:701328,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/acpi, type: <nil>, flags: 4143",0
+04:13:27:701370,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/docker/netns/ce02eefe462d, type: <nil>, flags: 4130",0
+04:13:27:701401,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/lib/fprint, type: <nil>, flags: 4130",0
+04:13:27:701418,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/tracing, type: <nil>, flags: 4143",0
+04:13:27:701452,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snap-store/1113, type: <nil>, flags: 4135",0
+04:13:27:701482,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/vmblock-fuse, type: <nil>, flags: 4130",0
+04:13:27:701499,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/gtk-common-themes/1535, type: <nil>, flags: 4135",0
+04:13:27:701514,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/config, type: <nil>, flags: 4143",0
+04:13:27:701542,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/snapd-desktop-integration/247, type: <nil>, flags: 4135",0
+04:13:27:701558,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/lib/docker/overlay2/2c59213d034d4dc65b4c36ef2d7618b61e7db7e6b58e0048baadc6c8e5c2eef3/merged, type: <nil>, flags: 4131",0
+04:13:27:701587,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/snapd/ns, type: <nil>, flags: 4142",0
+04:13:27:701604,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/media/shui/Ubuntu 22.04.4 LTS amd64, type: <nil>, flags: 4135",0
+04:13:27:701632,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root, type: <nil>, flags: 4131",0
+04:13:27:701647,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/core22/1722, type: <nil>, flags: 4135",0
+04:13:27:701676,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/debug, type: <nil>, flags: 4143",0
+04:13:27:701692,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/hugepages, type: <nil>, flags: 4130",0
+04:13:27:701730,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/sysrq-trigger, type: <nil>, flags: 4143",0
+04:13:27:701747,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/latency_stats, type: <nil>, flags: 4143",0
+04:13:27:701760,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/usr/lib/modules, type: <nil>, flags: 4143",0
+04:13:27:701774,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/lock, type: <nil>, flags: 4142",0
+04:13:27:701803,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kallsyms, type: <nil>, flags: 4143",0
+04:13:27:701818,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/shm, type: <nil>, flags: 4134",0
+04:13:27:701831,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc, type: <nil>, flags: 4142",0
+04:13:27:701845,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/docker/netns/6cf85cbc5688, type: <nil>, flags: 4130",0
+04:13:27:701858,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev, type: <nil>, flags: 4130",0
+04:13:27:701871,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/snap/lxd/31214, type: <nil>, flags: 4135",0
+04:13:27:701886,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/irq, type: <nil>, flags: 4143",0
+04:13:27:701899,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/scsi, type: <nil>, flags: 4143",0
+04:13:27:703028,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/kmsg, type: <nil>, flags: 4143",0
+04:13:27:703064,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev, type: <nil>, flags: 4130",0
+04:13:27:703080,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/pts, type: <nil>, flags: 4138",0
+04:13:27:703110,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/shm, type: <nil>, flags: 4134",0
+04:13:27:703129,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/hugepages, type: <nil>, flags: 4130",0
+04:13:27:703143,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/mqueue, type: <nil>, flags: 4142",0
+04:13:27:704163,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/dev/kmsg, type: <nil>, flags: 4143",0
+04:13:27:704993,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 13, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/journal/stdout]",0
+04:13:27:705076,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 15, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/journal/stdout]",0
+04:13:27:705267,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/home, type: <nil>, flags: 4143",0
+04:13:27:705886,0,gdm-session-wor,10341,10341,0,sched_process_exec,"cmdpath: /usr/libexec/gdm-session-worker, pathname: /usr/libexec/gdm-session-worker, dev: 8388611, inode: 1475375, ctime: 1721354288133106307, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [gdm-session-worker [pam/gdm-password]], interp: /usr/libexec/gdm-session-worker, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: gdm-session-wor, env: <nil>",0
+04:13:27:706389,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/acpi, type: <nil>, flags: 4143",0
+04:13:27:706438,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/asound, type: <nil>, flags: 4143",0
+04:13:27:706455,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/sysrq-trigger, type: <nil>, flags: 4143",0
+04:13:27:706486,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kcore, type: <nil>, flags: 4143",0
+04:13:27:706503,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/irq, type: <nil>, flags: 4143",0
+04:13:27:706533,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/fs, type: <nil>, flags: 4143",0
+04:13:27:706563,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/sys, type: <nil>, flags: 4143",0
+04:13:27:706592,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/scsi, type: <nil>, flags: 4143",0
+04:13:27:706607,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/bus, type: <nil>, flags: 4143",0
+04:13:27:706621,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/latency_stats, type: <nil>, flags: 4143",0
+04:13:27:706634,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kmsg, type: <nil>, flags: 4143",0
+04:13:27:706654,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kallsyms, type: <nil>, flags: 4143",0
+04:13:27:706667,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc, type: <nil>, flags: 4142",0
+04:13:27:706681,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/mtrr, type: <nil>, flags: 4143",0
+04:13:27:707679,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/acpi, type: <nil>, flags: 4143",0
+04:13:27:709336,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/asound, type: <nil>, flags: 4143",0
+04:13:27:710492,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:27:710797,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/bus, type: <nil>, flags: 4143",0
+04:13:27:711821,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/fs, type: <nil>, flags: 4143",0
+04:13:27:712478,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 7, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/dbus/system_bus_socket]",0
+04:13:27:712869,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/irq, type: <nil>, flags: 4143",0
+04:13:27:713968,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kallsyms, type: <nil>, flags: 4143",0
+04:13:27:714983,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kcore, type: <nil>, flags: 4143",0
+04:13:27:716006,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/kmsg, type: <nil>, flags: 4143",0
+04:13:27:717173,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/latency_stats, type: <nil>, flags: 4143",0
+04:13:27:718390,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/mtrr, type: <nil>, flags: 4143",0
+04:13:27:719450,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/scsi, type: <nil>, flags: 4143",0
+04:13:27:720454,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/sys, type: <nil>, flags: 4143",0
+04:13:27:721489,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/proc/sysrq-trigger, type: <nil>, flags: 4143",0
+04:13:27:722592,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 8, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+04:13:27:722623,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 8, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+04:13:27:723015,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/root, type: <nil>, flags: 4143",0
+04:13:27:724038,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/credentials, type: <nil>, flags: 4143",0
+04:13:27:724073,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/snapd/ns, type: <nil>, flags: 4142",0
+04:13:27:724089,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/systemd/incoming, type: <nil>, flags: 4143",0
+04:13:27:724104,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/user, type: <nil>, flags: 4143",0
+04:13:27:724125,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/docker/netns/ce02eefe462d, type: <nil>, flags: 4130",0
+04:13:27:724139,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/lock, type: <nil>, flags: 4142",0
+04:13:27:724151,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run, type: <nil>, flags: 4142",0
+04:13:27:724165,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/vmblock-fuse, type: <nil>, flags: 4130",0
+04:13:27:724178,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/docker/netns/6cf85cbc5688, type: <nil>, flags: 4130",0
+04:13:27:725234,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/credentials, type: <nil>, flags: 4143",0
+04:13:27:726273,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/systemd/incoming, type: <nil>, flags: 4143",0
+04:13:27:727310,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/run/user, type: <nil>, flags: 4143",0
+04:13:27:728534,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/tracing, type: <nil>, flags: 4143",0
+04:13:27:728591,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/debug/tracing, type: <nil>, flags: 4143",0
+04:13:27:728608,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/devices, type: <nil>, flags: 4142",0
+04:13:27:728622,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys, type: <nil>, flags: 4143",0
+04:13:27:728653,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/debug, type: <nil>, flags: 4143",0
+04:13:27:728675,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/cgroup, type: <nil>, flags: 4143",0
+04:13:27:728690,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/bpf, type: <nil>, flags: 4143",0
+04:13:27:728705,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/security, type: <nil>, flags: 4143",0
+04:13:27:728722,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/pstore, type: <nil>, flags: 4143",0
+04:13:27:728737,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/config, type: <nil>, flags: 4143",0
+04:13:27:728752,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/fuse/connections, type: <nil>, flags: 4143",0
+04:13:27:729832,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/devices, type: <nil>, flags: 4142",0
+04:13:27:731043,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/bpf, type: <nil>, flags: 4143",0
+04:13:27:732067,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/fs/cgroup, type: <nil>, flags: 4143",0
+04:13:27:733569,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/debug, type: <nil>, flags: 4143",0
+04:13:27:733671,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/debug/tracing, type: <nil>, flags: 4143",0
+04:13:27:734723,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/sys/kernel/tracing, type: <nil>, flags: 4143",0
+04:13:27:735728,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/tmp, type: <nil>, flags: 4130",0
+04:13:27:736750,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/usr/lib/modules, type: <nil>, flags: 4143",0
+04:13:27:737796,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/lib/fprint, type: <nil>, flags: 4130",0
+04:13:27:738844,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/unit-root/var/tmp, type: <nil>, flags: 4130",0
+04:13:27:739408,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: /run/systemd/unit-root, path: /, type: <nil>, flags: 8192",0
+04:13:27:739430,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /, type: <nil>, flags: 1064960",0
+04:13:27:739445,0,(fprintd),10336,10336,0,security_sb_mount,"dev_name: <nil>, path: /run/systemd/incoming, type: <nil>, flags: 524288",0
+04:13:27:761482,0,fprintd,10336,10336,0,sched_process_exec,"cmdpath: /usr/libexec/fprintd, pathname: /usr/libexec/fprintd, dev: 8388611, inode: 1475370, ctime: 1721354288125106972, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/libexec/fprintd], interp: /usr/libexec/fprintd, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: (fprintd), env: <nil>",0
+04:13:27:767094,0,fprintd,10336,10336,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/dbus/system_bus_socket]",0
+04:13:27:772495,0,systemd,1,1,0,security_socket_connect,"sockfd: 26, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:27:772751,0,systemd-logind,934,934,0,fchmod,"fd: 27, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+04:13:28:846931,0,lxd,2645,3648,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:28:847644,0,lxd,2645,3642,0,security_socket_connect,"sockfd: 28, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:]",0
+04:13:28:854202,0,lxd,2645,3642,0,fchown,"fd: 28, owner: 0, group: 0",0
+04:13:28:856158,0,lxd,2645,3642,0,security_inode_unlink,"pathname: /var/snap/lxd/common/lxd/database/local.db-journal, inode: 2230707, dev: 8388611, ctime: 1741166008853029060",0
+04:13:29:192935,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 8, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+04:13:29:193027,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 8, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/nscd/socket]",0
+04:13:29:193505,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 9, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+04:13:29:194714,0,gdm-session-wor,10349,10349,0,setgid,gid: 1000,0
+04:13:29:194746,1000,gdm-session-wor,10349,10349,0,setuid,uid: 1000,0
+04:13:29:194760,1000,gdm-session-wor,10349,10349,0,setresgid,"rgid: -1, egid: 1000, sgid: -1",0
+04:13:29:194766,1000,gdm-session-wor,10349,10349,0,setresuid,"ruid: -1, euid: 1000, suid: -1",0
+04:13:29:194782,1000,gdm-session-wor,10349,10349,0,security_socket_connect,"sockfd: 8, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/keyring/control]",0
+04:13:29:196503,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 8, type: SOCK_DGRAM, remote_addr: map[sa_family:AF_UNIX sun_path:/dev/log]",0
+04:13:29:198139,0,gdbus,10341,10344,0,setgid,gid: 1000,0
+04:13:29:198187,0,gmain,10341,10342,0,setgid,gid: 1000,0
+04:13:29:198301,0,gdm-session-wor,10341,10341,0,setgid,gid: 1000,0
+04:13:29:198411,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 10, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+04:13:29:199123,0,gdm-session-wor,10341,10341,0,security_socket_connect,"sockfd: 10, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+04:13:29:201797,0,systemd-journal,353,353,0,security_inode_unlink,"pathname: /systemd/journal/streams/8:463422, inode: 2214, dev: 25, ctime: 1741166007704043238",0
+04:13:29:201888,0,systemd-journal,353,353,0,security_inode_unlink,"pathname: /systemd/journal/streams/8:463421, inode: 2213, dev: 25, ctime: 1741166007704043238",0
+04:13:29:360669,1000,dbus-daemon,2779,2779,0,security_socket_connect,"sockfd: 95, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/journal/stdout]",0
+04:13:29:360720,1000,dbus-daemon,2779,2779,0,security_socket_connect,"sockfd: 96, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/journal/stdout]",0
+04:13:29:362655,1000,nautilus,10351,10351,0,sched_process_exec,"cmdpath: /usr/bin/nautilus, pathname: /usr/bin/nautilus, dev: 8388611, inode: 1442553, ctime: 1721354246090090256, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/bin/nautilus --gapplication-service], interp: /usr/bin/nautilus, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: dbus-daemon, env: <nil>",0
+04:13:29:400322,1000,nautilus,10351,10351,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/bus]",0
+04:13:29:405980,1000,gvfsd-trash,3056,3056,0,security_socket_bind,"sockfd: 9, local_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/gvfsd/socket-uGqcsMnf]",0
+04:13:29:406784,1000,nautilus,10351,10351,0,security_socket_connect,"sockfd: 7, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/gvfsd/socket-uGqcsMnf]",0
+04:13:29:407450,1000,gvfsd-trash,3056,3056,0,security_inode_unlink,"pathname: /gvfsd/socket-uGqcsMnf, inode: 223, dev: 75, ctime: 1741166009405022265",0
+04:13:29:416576,1000,nautilus,10351,10351,0,security_socket_connect,"sockfd: 13, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/wayland-0]",0
+04:13:29:470449,0,polkitd,915,915,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+04:13:29:472392,0,polkitd,915,915,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+04:13:29:482909,1000,ding.js,10358,10358,0,sched_process_exec,"cmdpath: /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js, pathname: /usr/bin/env, dev: 8388611, inode: 1442077, ctime: 1721354245418207613, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/bin/env gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1918:900:1:27:0:0:0:0], interp: /usr/bin/env, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: gnome-shell, env: <nil>",0
+04:13:29:483644,1000,gjs,10358,10358,0,sched_process_exec,"cmdpath: /usr/bin/gjs, pathname: /usr/bin/gjs-console, dev: 8388611, inode: 1442193, ctime: 1721354245598176087, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1918:900:1:27:0:0:0:0], interp: /usr/bin/gjs, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: ding.js, env: <nil>",0
+04:13:29:492267,1000,gjs,10358,10358,0,security_socket_connect,"sockfd: 6, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/bus]",0
+04:13:29:519713,1000,nautilus,10351,10351,15,memfd_create,"name: wayland-cursor, flags: 3",0
+04:13:29:586858,1000,nautilus,10351,10351,0,security_socket_connect,"sockfd: 16, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/bus]",0
+04:13:29:587533,1000,gjs,10358,10358,9,memfd_create,"name: wayland-cursor, flags: 3",0
+04:13:29:590494,1000,nautilus,10351,10351,0,security_socket_connect,"sockfd: 17, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/at-spi/bus]",0
+04:13:29:596370,0,polkitd,915,915,0,security_socket_connect,"sockfd: 12, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/userdb/io.systemd.DynamicUser]",0
+04:13:29:597058,0,systemd-logind,934,934,0,fchmod,"fd: 30, mode: S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH",0
+04:13:29:735229,1000,gjs,10358,10358,0,security_socket_connect,"sockfd: 10, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/bus]",0
+04:13:29:736639,1000,gjs,10358,10358,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/at-spi/bus]",0
+04:13:29:751305,1000,gnome-terminal-,4385,4385,15,memfd_create,"name: gdk-wayland, flags: 1",0
+04:13:29:762920,1000,gvfsd-trash,3056,3056,0,security_socket_bind,"sockfd: 9, local_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/gvfsd/socket-oANKAazg]",0
+04:13:29:763968,1000,pool-org.gnome.,10351,10356,0,security_socket_connect,"sockfd: 20, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/gvfsd/socket-oANKAazg]",0
+04:13:29:764548,1000,gvfsd-trash,3056,3056,0,security_inode_unlink,"pathname: /gvfsd/socket-oANKAazg, inode: 224, dev: 75, ctime: 1741166009762017874",0
+04:13:29:769910,1000,gnome-shell,2952,2952,130,memfd_create,"name: mutter-shared, flags: 3",0
+04:13:29:791176,1000,gjs,10358,10358,0,security_socket_connect,"sockfd: 13, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/var/run/dbus/system_bus_socket]",0
+04:13:29:795868,1000,gnome-terminal-,4385,4385,15,memfd_create,"name: gdk-wayland, flags: 1",0
+04:13:29:824280,1000,dbus-daemon,2779,2779,0,security_socket_connect,"sockfd: 99, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/journal/stdout]",0
+04:13:29:824555,1000,dbus-daemon,2779,2779,0,security_socket_connect,"sockfd: 100, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/systemd/journal/stdout]",0
+04:13:29:825953,1000,file-roller,10380,10380,0,sched_process_exec,"cmdpath: /usr/bin/file-roller, pathname: /usr/bin/file-roller, dev: 8388611, inode: 1442108, ctime: 1721354245446202708, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [/usr/bin/file-roller --service], interp: /usr/bin/file-roller, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: dbus-daemon, env: <nil>",0
+04:13:29:842084,1000,file-roller,10380,10380,0,security_socket_connect,"sockfd: 6, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/wayland-0]",0
+04:13:29:845793,1000,file-roller,10380,10380,9,memfd_create,"name: wayland-cursor, flags: 3",0
+04:13:30:211619,1000,file-roller,10380,10380,0,security_socket_connect,"sockfd: 10, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/bus]",0
+04:13:30:213424,1000,file-roller,10380,10380,0,security_socket_connect,"sockfd: 11, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/at-spi/bus]",0
+04:13:30:323844,1000,gnome-shell,2952,2952,134,memfd_create,"name: mutter-shared, flags: 3",0
+04:13:30:362130,1000,nautilus,10385,10385,0,sched_process_exec,"cmdpath: /usr/bin/nautilus, pathname: /usr/bin/nautilus, dev: 8388611, inode: 1442553, ctime: 1721354246090090256, inode_mode: 33261, interpreter_pathname: <nil>, interpreter_dev: <nil>, interpreter_inode: <nil>, interpreter_ctime: <nil>, argv: [nautilus --version], interp: /usr/bin/nautilus, stdin_type: S_IFCHR, stdin_path: /dev/null, invoked_from_kernel: 0, prev_comm: gjs, env: <nil>",0
+04:13:30:380939,1000,nautilus,10385,10385,0,security_socket_connect,"sockfd: 5, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/bus]",0
+04:13:30:386457,1000,gvfsd-trash,3056,3056,0,security_socket_bind,"sockfd: 9, local_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/gvfsd/socket-fRuzjf5q]",0
+04:13:30:386698,1000,gnome-shell,2952,2952,134,memfd_create,"name: mutter-shared, flags: 3",0
+04:13:30:387016,1000,nautilus,10385,10385,0,security_socket_connect,"sockfd: 7, type: SOCK_STREAM, remote_addr: map[sa_family:AF_UNIX sun_path:/run/user/1000/gvfsd/socket-fRuzjf5q]",0
+04:13:30:387549,1000,gvfsd-trash,3056,3056,0,security_inode_unlink,"pathname: /gvfsd/socket-fRuzjf5q, inode: 225, dev: 75, ctime: 1741166010386010212",0
+04:13:30:403286,1000,nautilus,10385,10385,0,security_inode_unlink,"pathname: /home/shui/.local/share/nautilus/tags/.meta.isrunning, inode: 536956, dev: 8388611, ctime: 1741166009409022215",0
+04:13:30:408989,1000,gjs,10358,10358,20,memfd_create,"name: gdk-wayland, flags: 1",0
